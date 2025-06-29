@@ -22,10 +22,14 @@
   </style>
 </head>
 <body>
+<div style="padding: 1em; background: #fff; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+   <input type="text" id="searchInput" oninput="filterGames()" placeholder="Search games..." 
+       style="width: 100%; max-width: 500px; padding: 0.5em; font-size: 1em; border: 1px solid #ccc; border-radius: 6px;">
+</div>
 <section>
   <h2>january-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="farmer's dynasty">
       <h3>Farmer's Dynasty</h3>
       <img src="https://hb.imgix.net/260f839e1b74bb9852ef5afb8bedf52353684f10.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4c1e7766a775cd222a6c44f5638abb28" alt="Farmer's Dynasty">
       <div class="buttons">
@@ -97,7 +101,7 @@ Remember the good old days visiting your grandfathers farm? The time when you we
         <a href="https://store.steampowered.com/app/678900" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="mafia: definitive edition">
       <h3>Mafia: Definitive Edition</h3>
       <img src="https://hb.imgix.net/e533a7bd6e747f9454e772cf6ad3ed48f81c22a6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0ef2dd3b69e2f3131a38f1035aebc09b" alt="Mafia: Definitive Edition">
       <div class="buttons">
@@ -106,7 +110,7 @@ Part one of the Mafia crime saga - 1930s, Lost Heaven, IL. Re-made from the grou
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="midnight protocol">
       <h3>Midnight Protocol</h3>
       <img src="https://hb.imgix.net/638adbd0c836d50017dbe7eca2ab619ddceed7eb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d86665d5be2f91808bc4662ff76188ef" alt="Midnight Protocol">
       <div class="buttons">
@@ -158,7 +162,7 @@ GL;HF
         <a href="https://store.steampowered.com/app/1162700" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="between the stars">
       <h3>Between the Stars</h3>
       <img src="https://hb.imgix.net/ec52df525c85893b61329da5701de5f45823eb70.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ade6f9526fcd8c5e61f18f83ed5bdef3" alt="Between the Stars">
       <div class="buttons">
@@ -243,7 +247,7 @@ GL;HF
         <a href="https://store.steampowered.com/app/727130" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="rebel cops">
       <h3>Rebel Cops</h3>
       <img src="https://hb.imgix.net/d97b706b590a6c20020a0e37108b26a123a4b7d3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=58c2e02390d465b22c377849d8f5d4f2" alt="Rebel Cops">
       <div class="buttons">
@@ -259,7 +263,7 @@ GL;HF
         <a href="https://store.steampowered.com/app/970960" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="iron harvest">
       <h3>Iron Harvest</h3>
       <img src="https://hb.imgix.net/4385301956fcc970c858c15602049d9c5a3675b9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=86282dce5ce320a234ac8c19cfa061f1" alt="Iron Harvest">
       <div class="buttons">
@@ -314,7 +318,7 @@ Conquer resource points, build your base and place fortifications to protect you
         <a href="https://store.steampowered.com/app/826630" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="retrowave">
       <h3>Retrowave</h3>
       <img src="https://hb.imgix.net/a60d01c64131e0628cb462a40ea905da5fac9881.jpg?auto=compress,format&fit=clip&h=383&w=667&s=dbc4cf52ee0b6aac998aed057530d402" alt="Retrowave">
       <div class="buttons">
@@ -373,7 +377,7 @@ Watch out for other vehicles on the road (yes, even in the future there will be 
         <a href="https://store.steampowered.com/app/1239690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="project winter">
       <h3>Project Winter</h3>
       <img src="https://hb.imgix.net/fd079d029e93a74f806aab81aeadcf4b0184b586.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f77a7ca469c37d228d12b8214918818b" alt="Project Winter">
       <div class="buttons">
@@ -384,7 +388,7 @@ Watch out for other vehicles on the road (yes, even in the future there will be 
         <a href="https://store.steampowered.com/app/774861" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the henry stickmin collection">
       <h3>The Henry Stickmin Collection</h3>
       <img src="https://hb.imgix.net/77994a9bdbb6f7107060c91e0523c773f640bae5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a298323ea1158166aaa14b82f4ef362f" alt="The Henry Stickmin Collection">
       <div class="buttons">
@@ -413,7 +417,7 @@ A final game, Completing the Mission, is is featured in this collection. It's br
         <a href="https://store.steampowered.com/app/1089980" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="rustler">
       <h3>Rustler</h3>
       <img src="https://hb.imgix.net/074ef4ab2025988f43551efd08ecb859aaf1878f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01ddcd12bc6d6ae52429072f98371859" alt="Rustler">
       <div class="buttons">
@@ -436,7 +440,7 @@ A final game, Completing the Mission, is is featured in this collection. It's br
 <section>
   <h2>february-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="everhood">
       <h3>Everhood</h3>
       <img src="https://hb.imgix.net/55e6f6bd0d8cb7d4f546dff2ea09c85ce5c1ac16.jpg?auto=compress,format&fit=clip&h=383&w=667&s=147388ac98475e50a5ab1d9aa1c7ac27" alt="Everhood">
       <div class="buttons">
@@ -502,7 +506,7 @@ Here you control a wooden doll whose arm has been stolen by a blue gnome…
         <a href="https://store.steampowered.com/app/1229380" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="paradise lost">
       <h3>Paradise Lost</h3>
       <img src="https://hb.imgix.net/aff8de700e59fea383cfb7a36498556c9c186428.jpg?auto=compress,format&fit=clip&h=383&w=667&s=360ef5265de436265073e37135560cb1" alt="Paradise Lost">
       <div class="buttons">
@@ -540,7 +544,7 @@ Despite the desolation of the bunker, a mysterious girl named Ewa contacts Szymo
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="before we leave">
       <h3>Before We Leave</h3>
       <img src="https://hb.imgix.net/50f19d6bf7fea5f3c7b8ebb50d656944c2f7f23d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3001c338cb12c718fe2cbb91e2bf9405" alt="Before We Leave">
       <div class="buttons">
@@ -623,7 +627,7 @@ There are no weapons, no battles with neighbours for control of resources - just
         <a href="https://store.steampowered.com/app/1073910" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="just die already">
       <h3>Just Die Already</h3>
       <img src="https://hb.imgix.net/bf284d2376db3dd1176f23ae020ef23a84097404.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1612cbc0dc0cdd8b48ae20f6e4d4e2d0" alt="Just Die Already">
       <div class="buttons">
@@ -826,7 +830,7 @@ To make things worse, you’ve just been kicked out of your retirement home, and
         <a href="https://store.steampowered.com/app/979070" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="black book">
       <h3>Black Book</h3>
       <img src="https://hb.imgix.net/b50b51c9c69410a397c9f6b467b59d81863f7774.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b345b4b65f97b700bd544c510791b113" alt="Black Book">
       <div class="buttons">
@@ -903,7 +907,7 @@ Aching for her lost love, Vasilisa seeks out the <i>Black Book</i> - a demonic a
         <a href="https://store.steampowered.com/app/1138660" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="per aspera">
       <h3>Per Aspera</h3>
       <img src="https://hb.imgix.net/7fc4c96e94bec4668409e0f6b647e4980160cccb.png?auto=compress,format&fit=clip&h=383&w=667&s=4c0bbf4c65813cf544a61073db9e249c" alt="Per Aspera">
       <div class="buttons">
@@ -919,7 +923,7 @@ Using scientific theories proposed by real space agencies and geographical data 
         <a href="https://store.steampowered.com/app/803050" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="borderlands 3">
       <h3>Borderlands 3</h3>
       <img src="https://hb.imgix.net/4e560698aafb1b5f364c4a2bf6e05418e277dbfa.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fffdab8cb91364a9c6bc687dc60f48d5" alt="Borderlands 3">
       <div class="buttons">
@@ -974,7 +978,7 @@ Play with anyone at any time with online co-op, regardless of your level or miss
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="calico">
       <h3>Calico</h3>
       <img src="https://hb.imgix.net/afa4b7f4a9765fd6bbffb61e4a578efd6de1bfe1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=73de35882bd90a1aa5b659c430dbe253" alt="Calico">
       <div class="buttons">
@@ -1051,7 +1055,7 @@ We wanted there to be no limits to how you could find happiness in <i>Calico</i>
         <a href="https://store.steampowered.com/app/1112890" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="borderlands 3: director's cut">
       <h3>Borderlands 3: Director's Cut</h3>
       <img src="https://hb.imgix.net/8d5629d9c36b46c97318eb10a25aef3e35a339b5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b6da78edc8d603d50579b929cbc03b2" alt="Borderlands 3: Director's Cut">
       <div class="buttons">
@@ -1102,7 +1106,7 @@ This content requires Borderlands 3 to play and is included in Season Pass 2. Th
 <section>
   <h2>march-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="evan's remains">
       <h3>Evan's Remains</h3>
       <img src="https://hb.imgix.net/e0dc211811562466fcdd7839d37e5a4f9814b40c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2504c733f93a52ccf30908c9cc4b6506" alt="Evan's Remains">
       <div class="buttons">
@@ -1110,7 +1114,7 @@ This content requires Borderlands 3 to play and is included in Season Pass 2. Th
         <a href="https://store.steampowered.com/app/1110050" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="nebuchadnezzar">
       <h3>Nebuchadnezzar</h3>
       <img src="https://hb.imgix.net/e64d0c6829a258498e482aacd7a69f06604a1bee.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fad3c2f84dfe8cdb537e15da09e6a8f1" alt="Nebuchadnezzar">
       <div class="buttons">
@@ -1118,7 +1122,7 @@ This content requires Borderlands 3 to play and is included in Season Pass 2. Th
         <a href="https://store.steampowered.com/app/1157220" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the dark pictures anthology: man of medan">
       <h3>The Dark Pictures Anthology: Man of Medan</h3>
       <img src="https://hb.imgix.net/f7cb5b0c4bbe9d91bbf0e46284d457304f3fb577.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6eacae2276ed6b77ca9c0109f2d204a3" alt="The Dark Pictures Anthology: Man of Medan">
       <div class="buttons">
@@ -1175,7 +1179,7 @@ The Curator's cut is only available once you have completed the main story.
         <a href="https://store.steampowered.com/app/939850" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="police stories">
       <h3>Police Stories</h3>
       <img src="https://hb.imgix.net/4c150dbb38f1f09a45b2e19e99a5cdf6005a30f8.png?auto=compress,format&fit=clip&h=383&w=667&s=65339bc97f7a06fc48bb2c6be444f035" alt="Police Stories">
       <div class="buttons">
@@ -1197,7 +1201,7 @@ The Curator's cut is only available once you have completed the main story.
         <a href="https://store.steampowered.com/app/539470" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="red solstice 2: survivors">
       <h3>Red Solstice 2: Survivors</h3>
       <img src="https://hb.imgix.net/4c3321da6b0790e9e0b888b69da98d815eb91ec8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=83219e786ba29d9374c23745ba6df645" alt="Red Solstice 2: Survivors">
       <div class="buttons">
@@ -1345,7 +1349,7 @@ Playable in single-player or co-op with up to seven friends, <i>Red Solstice 2: 
         <a href="https://store.steampowered.com/app/768520" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="nickelodeon all-star brawl">
       <h3>Nickelodeon All-Star Brawl</h3>
       <img src="https://hb.imgix.net/a6c1e46ba60a8260e6011cade5a4376b5cc8bd1f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5c771310d1e8da47dfa338c86f5e3301" alt="Nickelodeon All-Star Brawl">
       <div class="buttons">
@@ -1372,7 +1376,7 @@ Playable in single-player or co-op with up to seven friends, <i>Red Solstice 2: 
         <a href="https://store.steampowered.com/app/1414850" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="desperados iii">
       <h3>Desperados III</h3>
       <img src="https://hb.imgix.net/bb4fd5a63680cdfe92ecf6cb1bd4ab5741e13789.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=b9926815e635624d0508614d480e833c" alt="Desperados III">
       <div class="buttons">
@@ -1453,7 +1457,7 @@ Playable in single-player or co-op with up to seven friends, <i>Red Solstice 2: 
         <a href="https://store.steampowered.com/app/610370" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="mass effect legendary edition">
       <h3>Mass Effect Legendary Edition</h3>
       <img src="https://hb.imgix.net/504ddbeb5949ae88184250644b53fc58a26638d9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=21200bcb9d545650233aa98a26bcf2f2" alt="Mass Effect Legendary Edition">
       <div class="buttons">
@@ -1553,7 +1557,7 @@ Experience an amazingly rich and detailed universe where your decisions have pro
 <section>
   <h2>april-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="rogue heroes: ruins of tasos">
       <h3>Rogue Heroes: Ruins of Tasos</h3>
       <img src="https://hb.imgix.net/39a62fadbeac6f8f4677fb07e441210bcd8e6066.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bee9b148372a025fd5bca06ac51940da" alt="Rogue Heroes: Ruins of Tasos">
       <div class="buttons">
@@ -1622,7 +1626,7 @@ Each with their own unique abilities, find which character suits your style of p
         <a href="https://store.steampowered.com/app/787810" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="chicken police">
       <h3>Chicken Police</h3>
       <img src="https://hb.imgix.net/7660c18bd4c137d45c854626bc41b8d9519e5695.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=2ae36d1c1795ac3dc1a966ab8e561e10" alt="Chicken Police">
       <div class="buttons">
@@ -1837,7 +1841,7 @@ The city of Clawville was built as an Edenic place, where predators and prey can
         <a href="https://store.steampowered.com/app/1084640" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="destroy all humans!">
       <h3>Destroy All Humans!</h3>
       <img src="https://hb.imgix.net/5519605fa0879cb2d9277f9d317c50223a436cc2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ccbc6edc447735643e2fc9a42e2afd94" alt="Destroy All Humans!">
       <div class="buttons">
@@ -1898,7 +1902,7 @@ The cult-classic returns! Terrorize the people of 1950s Earth in the role of the
         <a href="https://store.steampowered.com/app/803330" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="suzerain">
       <h3>Suzerain</h3>
       <img src="https://hb.imgix.net/759059205d30c791f247b5235b95e5142845b79c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cbc02bf2cf87e0bcf00d5c409e6d0a31" alt="Suzerain">
       <div class="buttons">
@@ -1923,7 +1927,7 @@ The cult-classic returns! Terrorize the people of 1950s Earth in the role of the
         <a href="https://store.steampowered.com/app/1207650" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="ghostrunner">
       <h3>Ghostrunner</h3>
       <img src="https://hb.imgix.net/c2dd4a2289431c391e5ab7ef0dcdea45db1b0e1e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6a155b66696c3a4dc5fb5035b8fe85da" alt="Ghostrunner">
       <div class="buttons">
@@ -1967,7 +1971,7 @@ One-hit one-kill mechanics make combat fast and intense. Use your superior mobil
         <a href="https://store.steampowered.com/app/1139900" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="killsquad">
       <h3>Killsquad</h3>
       <img src="https://hb.imgix.net/d20ef95969cb33d42b5d75136344112de55cf898.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7604127aa9ada33370e1a0faf1eb112d" alt="Killsquad">
       <div class="buttons">
@@ -2045,7 +2049,7 @@ But this party would not be complete without the main course: the enemies. Horde
         <a href="https://store.steampowered.com/app/910490" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="monster sanctuary">
       <h3>Monster Sanctuary</h3>
       <img src="https://hb.imgix.net/32229a3203ae21f96add656f7e1ff615a2b40213.jpg?auto=compress,format&fit=clip&h=383&w=667&s=db5868bf17545d0d056c93dd38b9e5a6" alt="Monster Sanctuary">
       <div class="buttons">
@@ -2104,7 +2108,7 @@ Face off in a test of skill and ability in online player vs player! Gather and t
         <a href="https://store.steampowered.com/app/814370" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="naruto to boruto: shinobi striker">
       <h3>NARUTO TO BORUTO: SHINOBI STRIKER</h3>
       <img src="https://hb.imgix.net/8400192862a2e516b9e2586d919300e1294cf275.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4d3c4ddfdd162fc648b489a4a1599ba" alt="NARUTO TO BORUTO: SHINOBI STRIKER">
       <div class="buttons">
@@ -2123,7 +2127,7 @@ The Naruto franchise is back with a brand new experience in <i>NARUTO TO BORUTO:
 <section>
   <h2>may-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="spongebob squarepants: battle for bikini bottom - rehydrated">
       <h3>SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated</h3>
       <img src="https://hb.imgix.net/817e630a4946c9de8e9f249cf2aad2851d2c8b17.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e59444e27fc3a002136de9b6c1a0b2dd" alt="SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated">
       <div class="buttons">
@@ -2198,7 +2202,7 @@ The Naruto franchise is back with a brand new experience in <i>NARUTO TO BORUTO:
         <a href="https://store.steampowered.com/app/969990" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="if found...">
       <h3>If Found...</h3>
       <img src="https://hb.imgix.net/9c8361bb75bc90b2410bbaa3018d466456403fdb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1135306399b169c0dfe7e3f085302ce0" alt="If Found...">
       <div class="buttons">
@@ -2236,7 +2240,7 @@ Features include: awkward crushes, the planet Jupiter, many kisses, a punk conce
         <a href="https://store.steampowered.com/app/1041920" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="surviving the aftermath">
       <h3>Surviving the Aftermath</h3>
       <img src="https://hb.imgix.net/fcaa745c0030241fb4cca44fea6d681650bad249.jpg?auto=compress,format&fit=clip&h=383&w=667&s=01611b677fcd86ad6c7451894a696ce2" alt="Surviving the Aftermath">
       <div class="buttons">
@@ -2273,7 +2277,7 @@ Specialists will stumble upon mysteries while exploring the world. Uncover secre
         <a href="https://store.steampowered.com/app/684450" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="planet zoo">
       <h3>Planet Zoo</h3>
       <img src="https://hb.imgix.net/d0fc9a6ee8c77ee1aeef9af2fdb0790218315779.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=83fa3943bf4fe041a564a07e51a6f198" alt="Planet Zoo">
       <div class="buttons">
@@ -2323,7 +2327,7 @@ Specialists will stumble upon mysteries while exploring the world. Uncover secre
         <a href="https://store.steampowered.com/app/703080" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="genesis noir">
       <h3>Genesis Noir</h3>
       <img src="https://hb.imgix.net/cff415a59521012e5ddf3c681614be91cd2571e1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=26867cd618e1f908c0ed3e8919e84a75" alt="Genesis Noir">
       <div class="buttons">
@@ -2370,7 +2374,7 @@ You’ll observe moments in the history of the universe, from the first microsec
         <a href="https://store.steampowered.com/app/735290" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="command & conquer remastered collection">
       <h3>Command & Conquer Remastered Collection</h3>
       <img src="https://hb.imgix.net/243b832f887a4c13971aefb74760f5cbfca717ac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=93d2eb7db8a31ffba3240a86de17f35f" alt="Command & Conquer Remastered Collection">
       <div class="buttons">
@@ -2408,7 +2412,7 @@ You’ll observe moments in the history of the universe, from the first microsec
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="embr">
       <h3>Embr</h3>
       <img src="https://hb.imgix.net/b03cec27d7a77ad56792b9691de2f8e43d29640f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0d6d9512e35478f79ca119366df028fb" alt="Embr">
       <div class="buttons">
@@ -2462,7 +2466,7 @@ Create the ultimate private firefighting experience with a range of tools, upgra
         <a href="https://store.steampowered.com/app/1062830" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="spellcaster university">
       <h3>Spellcaster University</h3>
       <img src="https://hb.imgix.net/893b8bfc7f11b188549e23308f31f1a8a34b0914.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b3ddc2e9e8da509f0d4de8d74c5f3a5c" alt="Spellcaster University">
       <div class="buttons">
@@ -2594,7 +2598,7 @@ In <i>Spellcaster University</i>, you take on the role of the director of a magi
 <section>
   <h2>june-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="gamedec - definitive edition">
       <h3>Gamedec - Definitive Edition</h3>
       <img src="https://hb.imgix.net/32708ce4d275dea5ad017b08276b26c1fe301b6d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98679ce6466238650470ae9f4424ffd2" alt="Gamedec - Definitive Edition">
       <div class="buttons">
@@ -2615,7 +2619,7 @@ In <i>Spellcaster University</i>, you take on the role of the director of a magi
         <a href="https://store.steampowered.com/app/295047" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="pumpkin jack">
       <h3>Pumpkin Jack</h3>
       <img src="https://hb.imgix.net/13aed83358902529c52337e5630a218f5bb84509.jpg?auto=compress,format&fit=clip&h=383&w=667&s=46c970b82a7b65ba795bc47888852e94" alt="Pumpkin Jack">
       <div class="buttons">
@@ -2720,7 +2724,7 @@ Solve puzzles that focus on physics, gravity and reflection. Inhabit a pumpkin h
         <a href="https://store.steampowered.com/app/408200" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="superhot: mind control delete">
       <h3>SUPERHOT: MIND CONTROL DELETE</h3>
       <img src="https://hb.imgix.net/dd10ece2b9c9a65b479c07409b082017a3c93d52.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5533ffc461721ad482b79a4ea9474e4c" alt="SUPERHOT: MIND CONTROL DELETE">
       <div class="buttons">
@@ -2762,7 +2766,7 @@ Solve puzzles that focus on physics, gravity and reflection. Inhabit a pumpkin h
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="siege survival: gloria victis">
       <h3>Siege Survival: Gloria Victis</h3>
       <img src="https://hb.imgix.net/0f2d11e1ed3f1ce76d8ee298ca98eb3dd5325855.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1169200f1709f47cdf8e9903b7a44a9" alt="Siege Survival: Gloria Victis">
       <div class="buttons">
@@ -2848,7 +2852,7 @@ Help is coming, but it’s weeks away. And in a siege like this, one dilemma can
         <a href="https://store.steampowered.com/app/1167140" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="call of the sea">
       <h3>Call of the Sea</h3>
       <img src="https://hb.imgix.net/eb8a4373dc5a9a04472659ed7627397bb44598fa.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=dacf0f624efad9819f0bbe218a9dea74" alt="Call of the Sea">
       <div class="buttons">
@@ -2904,7 +2908,7 @@ Investigate the clues left by a previous voyage, piece together what happened, a
         <a href="https://store.steampowered.com/app/1042490" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="i am fish">
       <h3>I am Fish</h3>
       <img src="https://hb.imgix.net/207e61580426dc41febdaae52c7a6b89b205ecf4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3e66a3c8d1929bce386a1d77157a95ae" alt="I am Fish">
       <div class="buttons">
@@ -2924,7 +2928,7 @@ Investigate the clues left by a previous voyage, piece together what happened, a
         <a href="https://store.steampowered.com/app/1472560" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="star wars squadrons">
       <h3>Star Wars Squadrons</h3>
       <img src="https://hb.imgix.net/84f1606f64357a0a8b67c51b70967043531ea0a3.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bfeed855f774bac1fdc8d429114a803c" alt="Star Wars Squadrons">
       <div class="buttons">
@@ -2938,7 +2942,7 @@ Investigate the clues left by a previous voyage, piece together what happened, a
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="phoenix point: year one edition">
       <h3>Phoenix Point: Year One Edition</h3>
       <img src="https://hb.imgix.net/161cbc03e41f7adab01b603453025b0c7437b1ce.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c28127fc1fb60bc7c37b9f0424bab664" alt="Phoenix Point: Year One Edition">
       <div class="buttons">
@@ -3033,7 +3037,7 @@ Just remember: you're not alone out there. Factions, including the corporatist N
 <section>
   <h2>july-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="legion td 2 - multiplayer tower defense.">
       <h3>Legion TD 2 - Multiplayer Tower Defense.</h3>
       <img src="https://hb.imgix.net/5ca2756310c17e8888f88c68aa28e54a2a573a9c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9d93e2f1e4bd54ea8a60020ce7f04721" alt="Legion TD 2 - Multiplayer Tower Defense.">
       <div class="buttons">
@@ -3052,7 +3056,7 @@ Just remember: you're not alone out there. Factions, including the corporatist N
         <a href="https://store.steampowered.com/app/469600" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="atom rpg trudograd">
       <h3>ATOM RPG Trudograd</h3>
       <img src="https://hb.imgix.net/8ab621577baa190f96fc5ff11ea41422b510ade4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9caa02b315ab680ac19437cd6814d3d7" alt="ATOM RPG Trudograd">
       <div class="buttons">
@@ -3154,7 +3158,7 @@ We really hope you will enjoy
         <a href="https://store.steampowered.com/app/1139940" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="yes, your grace ">
       <h3>Yes, Your Grace </h3>
       <img src="https://hb.imgix.net/48c436a0eeb2ff15b311565b92f372f16d0b20e9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=59f1aa39f6e96d0f04de1b28423b28fd" alt="Yes, Your Grace ">
       <div class="buttons">
@@ -3211,7 +3215,7 @@ You will face lords with a variety of personalities; you will need their support
         <a href="https://store.steampowered.com/app/1115690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="lawn mowing simulator ">
       <h3>Lawn Mowing Simulator </h3>
       <img src="https://hb.imgix.net/9b800a0d073fbec0526323322cffdb5b5d8befe4.png?auto=compress,format&fit=clip&h=383&w=667&s=7b28e8efe7a8b33465ad2f35051e298c" alt="Lawn Mowing Simulator ">
       <div class="buttons">
@@ -3225,7 +3229,7 @@ You will face lords with a variety of personalities; you will need their support
         <a href="https://store.steampowered.com/app/1480560" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="deep rock galactic + 65% off ultimate bundle coupon">
       <h3>Deep Rock Galactic + 65% off Ultimate Bundle coupon</h3>
       <img src="https://hb.imgix.net/21fc9e6c1fb247c5cf7381954adc61ea7011645d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f2348826df86b08169a340d194e6ea78" alt="Deep Rock Galactic + 65% off Ultimate Bundle coupon">
       <div class="buttons">
@@ -3235,7 +3239,7 @@ You will face lords with a variety of personalities; you will need their support
         <a href="https://store.steampowered.com/app/548430" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="legend of keepers">
       <h3>Legend of Keepers</h3>
       <img src="https://hb.imgix.net/6249588c3894d1b2d65b703bd89d549ddc357d55.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=003b11520db653bbe561a870467efd3e" alt="Legend of Keepers">
       <div class="buttons">
@@ -3259,7 +3263,7 @@ You will face lords with a variety of personalities; you will need their support
         <a href="https://store.steampowered.com/app/978520" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="banners of ruin ">
       <h3>Banners of Ruin </h3>
       <img src="https://hb.imgix.net/176078dbcca156db67e139f52a70738ae2bd678a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f0d793a6400642e135e8e46864bd9030" alt="Banners of Ruin ">
       <div class="buttons">
@@ -3301,7 +3305,7 @@ You will face lords with a variety of personalities; you will need their support
         <a href="https://store.steampowered.com/app/978520" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="necromunda: hired gun">
       <h3>Necromunda: Hired Gun</h3>
       <img src="https://hb.imgix.net/066277bcacdb125f80d51c29ab4e7097a3d7c151.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1bc674db19928fb1aa5d475045498d7d" alt="Necromunda: Hired Gun">
       <div class="buttons">
@@ -3316,7 +3320,7 @@ You will face lords with a variety of personalities; you will need their support
 <section>
   <h2>august-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="omno">
       <h3>Omno</h3>
       <img src="https://hb.imgix.net/61a98ef2f059626e0646ade92822f823b8b5b302.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1340e2c2842edef0241654c30abd0514" alt="Omno">
       <div class="buttons">
@@ -3364,7 +3368,7 @@ Jonas Manke, solo developer and father of 3, began work on <i>Omno</i> as a hobb
         <a href="https://store.steampowered.com/app/969760" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the ascent">
       <h3>The Ascent</h3>
       <img src="https://hb.imgix.net/f9fcce5b3d2bc644d532f12d1bd7cf7087a165e3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bc2474cdb86dac6fadd0ebb581c08cf8" alt="The Ascent">
       <div class="buttons">
@@ -3380,7 +3384,7 @@ Jonas Manke, solo developer and father of 3, began work on <i>Omno</i> as a hobb
         <a href="https://store.steampowered.com/app/979690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="mind scanners">
       <h3>Mind Scanners</h3>
       <img src="https://hb.imgix.net/c996cd77439ee43c1036e271336d0d37a90dd333.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e0a098dbb188bfa090d28a0958090ce6" alt="Mind Scanners">
       <div class="buttons">
@@ -3476,7 +3480,7 @@ take full responsibility for your patients.
         <a href="https://store.steampowered.com/app/1389550" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="gas station simulator">
       <h3>Gas Station Simulator</h3>
       <img src="https://hb.imgix.net/96b5a08700d1cbb5c2c7145a395d2a6d1b5f0b2f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7e3e269228ddc1bd928405b3be94ae9c" alt="Gas Station Simulator">
       <div class="buttons">
@@ -3507,7 +3511,7 @@ take full responsibility for your patients.
         <a href="https://store.steampowered.com/app/1149620" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="a plague tale: innocence">
       <h3>A Plague Tale: Innocence</h3>
       <img src="https://hb.imgix.net/2b22da5b29074bb317ee5c5cc40719709dddc36d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=42849f485bace7e24e9e54b35898f534" alt="A Plague Tale: Innocence">
       <div class="buttons">
@@ -3533,7 +3537,7 @@ Follow the grim tale of young Amicia and her little brother Hugo, in a heartrend
         <a href="https://store.steampowered.com/app/752590" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="emily is away <3">
       <h3>Emily is Away <3</h3>
       <img src="https://hb.imgix.net/4717317996a3fb55f40462c6283e518c3c61dbc9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7099ab3673abff450759a999a3ab34a6" alt="Emily is Away <3">
       <div class="buttons">
@@ -3581,7 +3585,7 @@ Emily &lt;3 features multiple branching paths, unique conversations and differen
         <a href="https://store.steampowered.com/app/1726520" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hot wheels unleashed ™">
       <h3>HOT WHEELS UNLEASHED ™</h3>
       <img src="https://hb.imgix.net/a1eaa78e6efce02b4790e9cb362be1520a7b12f1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=604a5bf78c5ab139270a9704e6ce120d" alt="HOT WHEELS UNLEASHED ™">
       <div class="buttons">
@@ -3626,7 +3630,7 @@ Furnish your own personal room with a huge number of elements that you will coll
         <a href="https://store.steampowered.com/app/1271700" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="in sound mind">
       <h3>In Sound Mind</h3>
       <img src="https://hb.imgix.net/ffded1b933493e4279ef7f80af76935e76ce807b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c642e26c81104758df62766bba0f7981" alt="In Sound Mind">
       <div class="buttons">
@@ -3682,7 +3686,7 @@ From the creators of the cult classic Nightmare House 2 comes <i>In Sound Mind</
 <section>
   <h2>september-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="forgive me father">
       <h3>Forgive Me Father</h3>
       <img src="https://hb.imgix.net/4bbcd468e77b5caeaceab299b141f9c25459095a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7472ce30e942da75f0990cb2ae35e4c2" alt="Forgive Me Father">
       <div class="buttons">
@@ -3780,7 +3784,7 @@ Explore this Lovecraft-inspired world that is full of hidden and hard to reach a
         <a href="https://store.steampowered.com/app/1590910" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the dungeon of naheulbeuk: the amulet of chaos">
       <h3>The Dungeon Of Naheulbeuk: The Amulet Of Chaos</h3>
       <img src="https://hb.imgix.net/e21a54cd79c23e362f6ac068b01cc144e24e1416.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c63202eeb1cceb6cb5507325f589f9b4" alt="The Dungeon Of Naheulbeuk: The Amulet Of Chaos">
       <div class="buttons">
@@ -3889,7 +3893,7 @@ The Naheulbeuk universe is an original creation by French author John Lang. It s
         <a href="https://store.steampowered.com/app/970830" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="crusader kings iii">
       <h3>Crusader Kings III</h3>
       <img src="https://hb.imgix.net/1e59a0ecf2074624e9712855febc366eff69eead.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c1dc0cf802c91134289e5d7aacbd38af" alt="Crusader Kings III">
       <div class="buttons">
@@ -4009,7 +4013,7 @@ continues the popular series made by Paradox Development Studio, featuring the w
         <a href="https://store.steampowered.com/app/1158310" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="just cause 4: complete edition">
       <h3>Just Cause 4: Complete Edition</h3>
       <img src="https://hb.imgix.net/2e2235b3a4e622c857ed5013e53eb831512ce3ce.png?auto=compress,format&fit=clip&h=383&w=667&s=a2d94efac6a5164baec41710da40b928" alt="Just Cause 4: Complete Edition">
       <div class="buttons">
@@ -4027,7 +4031,7 @@ continues the popular series made by Paradox Development Studio, featuring the w
         <a href="https://store.steampowered.com/app/517630" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="descenders">
       <h3>Descenders</h3>
       <img src="https://hb.imgix.net/62dfdd02bd0081132260239db3f88a0f86619aa8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7c425e0c44272555605cbe9c56d735a2" alt="Descenders">
       <div class="buttons">
@@ -4132,7 +4136,7 @@ continues the popular series made by Paradox Development Studio, featuring the w
         <a href="https://store.steampowered.com/app/681280" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="shapez + puzzle dlc">
       <h3>Shapez + Puzzle DLC</h3>
       <img src="https://hb.imgix.net/2a85242a5676e7f0514f3e4902c63af9375f6ebb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=502801d4380e11f1ad0c1971a032b1d0" alt="Shapez + Puzzle DLC">
       <div class="buttons">
@@ -4146,7 +4150,7 @@ continues the popular series made by Paradox Development Studio, featuring the w
         <a href="https://store.steampowered.com/app/1318690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="crown trick">
       <h3>Crown Trick</h3>
       <img src="https://hb.imgix.net/fa95db6b216c1e2246c4d39d58bfa66285520c7b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9f5cd6f65befce2fca8ad108d1f1d772" alt="Crown Trick">
       <div class="buttons">
@@ -4173,7 +4177,7 @@ continues the popular series made by Paradox Development Studio, featuring the w
         <a href="https://store.steampowered.com/app/1000010" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="industria">
       <h3>INDUSTRIA</h3>
       <img src="https://hb.imgix.net/21691e65e798ba0382b4edb3ffc6415d80f8ed13.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f6bfe3ca85cbde78871d86e6c8da12b7" alt="INDUSTRIA">
       <div class="buttons">
@@ -4252,7 +4256,7 @@ The search for Walter takes you deep into the center of the facility - right int
 <section>
   <h2>october-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="monster train (first class - collectors edition)">
       <h3>Monster Train (First Class - Collectors Edition)</h3>
       <img src="https://hb.imgix.net/9af72e9d367e984d8fea4126384214d4aae9c56c.png?auto=compress,format&fit=clip&h=383&w=667&s=d81796d40f1d88689f26f4c341bbdfdd" alt="Monster Train (First Class - Collectors Edition)">
       <div class="buttons">
@@ -4280,7 +4284,7 @@ The search for Walter takes you deep into the center of the facility - right int
         <a href="https://store.steampowered.com/app/1102190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="disciples: liberation">
       <h3>Disciples: Liberation</h3>
       <img src="https://hb.imgix.net/667d14284b697ffe2a4239e82600614a21607ddd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3f9c496c3845dc5cec8ddc248fb0740e" alt="Disciples: Liberation">
       <div class="buttons">
@@ -4410,7 +4414,7 @@ and it is up to you how you write your story.
         <a href="https://store.steampowered.com/app/1287840" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="deathloop">
       <h3>DEATHLOOP</h3>
       <img src="https://hb.imgix.net/c5053d8239862b84a3830c437d145df0c3f60d46.jpg?auto=compress,format&fit=clip&h=383&w=667&s=76e6633d407c5fe470f20c60615572a3" alt="DEATHLOOP">
       <div class="buttons">
@@ -4455,7 +4459,7 @@ Arkane is renowned for magnificently artistic worlds with multiple pathways and 
         <a href="https://store.steampowered.com/app/1252330" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the dark pictures anthology: little hope">
       <h3>The Dark Pictures Anthology: Little Hope</h3>
       <img src="https://hb.imgix.net/377f4170d72237b69fa61c969eaf96fc4672e183.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4c829a7392c537e49796809fbad5283f" alt="The Dark Pictures Anthology: Little Hope">
       <div class="buttons">
@@ -4468,7 +4472,7 @@ Arkane is renowned for magnificently artistic worlds with multiple pathways and 
         <a href="https://store.steampowered.com/app/1194630" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="railroad corporation">
       <h3>Railroad Corporation</h3>
       <img src="https://hb.imgix.net/1544634e027456766d30aa77f1527fdd90be5804.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=a6525bdac05770841d1b47e2f290084b" alt="Railroad Corporation">
       <div class="buttons">
@@ -4539,7 +4543,7 @@ Arkane is renowned for magnificently artistic worlds with multiple pathways and 
         <a href="https://store.steampowered.com/app/797400" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="epic chef">
       <h3>Epic Chef</h3>
       <img src="https://hb.imgix.net/7e4078c473d6db530c5a1b56fedb321b2af82cfe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d0a6ccd389d72a1ecb1ed22a8d0b7a10" alt="Epic Chef">
       <div class="buttons">
@@ -4594,7 +4598,7 @@ Welcome to Ambrosia, a place of gastronomic delight and agriculture wonder, reno
         <a href="https://store.steampowered.com/app/1312960" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="golf gang">
       <h3>Golf Gang</h3>
       <img src="https://hb.imgix.net/87fef74a66bb7f3563e120f0f878d4284020892c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=29ef1a4aceccc9871052c62cca826c36" alt="Golf Gang">
       <div class="buttons">
@@ -4613,7 +4617,7 @@ Welcome to Ambrosia, a place of gastronomic delight and agriculture wonder, reno
         <a href="https://store.steampowered.com/app/1151050" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="maid of sker">
       <h3>Maid of Sker</h3>
       <img src="https://hb.imgix.net/dac915952ff564a9bd2e80bcd2feee2f9ea8b268.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02d240edb6296b92189ef1ea3b531a89" alt="Maid of Sker">
       <div class="buttons">
@@ -4671,7 +4675,7 @@ With the support of the Creative Europe Programme - MEDIA of the European Union
 <section>
   <h2>november-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="morbid: the seven acolytes">
       <h3>Morbid: The Seven Acolytes</h3>
       <img src="https://hb.imgix.net/fc8b3acd5b5a42101171aab07b8ea8df72dc3c74.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=6292cf7556da4260f8112acb3a0b43f4" alt="Morbid: The Seven Acolytes">
       <div class="buttons">
@@ -4767,7 +4771,7 @@ If you're interested in the following games, <i>Morbid: The Seven Acolytes</i> i
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="unmetal">
       <h3>UnMetal</h3>
       <img src="https://hb.imgix.net/b98359fc4344a0b56031235fb314c4733548b952.jpg?auto=compress,format&fit=clip&h=383&w=667&s=263b6fa661cde8626f4893b29c231e14" alt="UnMetal">
       <div class="buttons">
@@ -4819,7 +4823,7 @@ If you're interested in the following games, <i>Morbid: The Seven Acolytes</i> i
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="kingdoms of amalur: re-reckoning - fate edition">
       <h3>Kingdoms of Amalur: Re-Reckoning - FATE Edition</h3>
       <img src="https://hb.imgix.net/413791f66ad94c898921d506c812936fae892b2a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=436cff74e597ac97e526b4b00c7c3bcf" alt="Kingdoms of Amalur: Re-Reckoning - FATE Edition">
       <div class="buttons">
@@ -4840,7 +4844,7 @@ If you're interested in the following games, <i>Morbid: The Seven Acolytes</i> i
         <a href="https://store.steampowered.com/app/1041720" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="roboquest">
       <h3>Roboquest</h3>
       <img src="https://hb.imgix.net/a7621529ec6c326068a74db169a10ea873bda20c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5112cf09a3b47bf1ec5c298470f75619" alt="Roboquest">
       <div class="buttons">
@@ -4854,7 +4858,7 @@ If you're interested in the following games, <i>Morbid: The Seven Acolytes</i> i
         <a href="https://store.steampowered.com/app/855127" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="shadow tactics: aiko's choice">
       <h3>Shadow Tactics: Aiko's Choice</h3>
       <img src="https://hb.imgix.net/3e6b581c26e70643df75148b9d8cee68cf710467.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4f836b4858d09176833b3d5dce999883" alt="Shadow Tactics: Aiko's Choice">
       <div class="buttons">
@@ -4967,7 +4971,7 @@ We are very happy to finally return to Shadow Tactics: Blades of the Shogun afte
         <a href="https://store.steampowered.com/app/418240" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="raji: an ancient epic">
       <h3>Raji: An Ancient Epic</h3>
       <img src="https://hb.imgix.net/7715a3e53afa13ca067ffdfab77568fcf6bfa618.png?auto=compress,format&fit=clip&h=383&w=667&s=e55646ec7bbc6624efe6fc9e7793966e" alt="Raji: An Ancient Epic">
       <div class="buttons">
@@ -4975,7 +4979,7 @@ We are very happy to finally return to Shadow Tactics: Blades of the Shogun afte
         <a href="https://store.steampowered.com/app/730390" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hell let loose">
       <h3>Hell Let Loose</h3>
       <img src="https://hb.imgix.net/688fd387a8cabfe96e35105dd7a54e33d09e5835.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9d1d63661df11217f8d9d33517d16f0" alt="Hell Let Loose">
       <div class="buttons">
@@ -5002,7 +5006,7 @@ We are very happy to finally return to Shadow Tactics: Blades of the Shogun afte
         <a href="https://store.steampowered.com/app/686810" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="eldest souls">
       <h3>Eldest Souls</h3>
       <img src="https://hb.imgix.net/cabaca0050ff63f42986c02cb72edaf4bd2b73d6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=937cc980dabef568b4574210b1b8a5e6" alt="Eldest Souls">
       <div class="buttons">
@@ -5127,7 +5131,7 @@ Every encounter with the Old Gods presents its own unique challenge… and rewar
 <section>
   <h2>december-2022</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="where the water tastes like wine">
       <h3>Where the Water Tastes Like Wine</h3>
       <img src="https://hb.imgix.net/4d229dd807d268a0aba56ac41e8e344a70f8e099.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3464d498b9ffdce7fbc66c0345ed2daf" alt="Where the Water Tastes Like Wine">
       <div class="buttons">
@@ -5212,7 +5216,7 @@ Players wander across a folkloric Depression era United States at their own pace
         <a href="https://store.steampowered.com/app/1367300" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="blade assault">
       <h3>Blade Assault</h3>
       <img src="https://hb.imgix.net/bab8bca00dfc2b6746a1047eca41ebbc5280fb89.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1fde0f5e222e2d280b6c548d46c1a3fb" alt="Blade Assault">
       <div class="buttons">
@@ -5260,7 +5264,7 @@ Meet NPCs and find upgrades along your quest to unlock unique powers. Each playa
         <a href="https://store.steampowered.com/app/1307580" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="greedfall">
       <h3>GreedFall</h3>
       <img src="https://hb.imgix.net/c330376c771cc04f048206865d80e93cb71f6021.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=6fb9f5a19e318a884dfef7592b6aa73c" alt="GreedFall">
       <div class="buttons">
@@ -5294,7 +5298,7 @@ Meet NPCs and find upgrades along your quest to unlock unique powers. Each playa
         <a href="https://store.steampowered.com/app/606880" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="wasteland 3">
       <h3>Wasteland 3</h3>
       <img src="https://hb.imgix.net/12bab3bdba968cc3d69f4bfc54cc6a3e597010d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3c138045407960d94b1129169850cc68" alt="Wasteland 3">
       <div class="buttons">
@@ -5328,7 +5332,7 @@ You’re dispatched on a desperate quest from the scorching deserts to the snowy
         <a href="https://store.steampowered.com/app/719040" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="backbone">
       <h3>Backbone</h3>
       <img src="https://hb.imgix.net/c86a70535d5a21d343e6baab5bfc647608acd17d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9c320f5e89626a1c29bd2e95e2da9af" alt="Backbone">
       <div class="buttons">
@@ -5410,7 +5414,7 @@ Original doom jazz soundtrack by Danshin and Arooj Aftab features an innovative 
         <a href="https://store.steampowered.com/app/865610" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="first class trouble">
       <h3>First Class Trouble</h3>
       <img src="https://hb.imgix.net/804d54e06b01bc31bc870230acefaa226a730de6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bbedc32b3d44dfd7c1490daafabf79d1" alt="First Class Trouble">
       <div class="buttons">
@@ -5471,7 +5475,7 @@ Interact with your fellow residents and personoids in unlimited, physicalized wa
         <a href="https://store.steampowered.com/app/953880" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="toem">
       <h3>TOEM</h3>
       <img src="https://hb.imgix.net/aa0188520199b9f0df5023fce9ba594faa6ccf96.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae95afb66746896d9f3bed3a1bf9dce8" alt="TOEM">
       <div class="buttons">
@@ -5487,7 +5491,7 @@ Interact with your fellow residents and personoids in unlimited, physicalized wa
         <a href="https://store.steampowered.com/app/447120" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="super magbot">
       <h3>Super Magbot</h3>
       <img src="https://hb.imgix.net/6f1b81976b5f532a73e975a870693c27eed161e8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f713564d90129c3169432c6ccd61b8e4" alt="Super Magbot">
       <div class="buttons">
@@ -5549,7 +5553,7 @@ With vibrant 16-bit style pixel art and an energetic chiptune soundtrack by Moon
 <section>
   <h2>january-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="conan chop chop">
       <h3>Conan Chop Chop</h3>
       <img src="https://hb.imgix.net/f8c62d1a3482d7416fac6f0a3f1439344fbb733b.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=60d896de509591280b1b3b260459d137" alt="Conan Chop Chop">
       <div class="buttons">
@@ -5570,7 +5574,7 @@ With vibrant 16-bit style pixel art and an energetic chiptune soundtrack by Moon
         <a href="https://store.steampowered.com/app/1061880" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="grow: song of the evertree">
       <h3>Grow: Song of the Evertree</h3>
       <img src="https://hb.imgix.net/eb879c73f2da690517193564dfaf459aaa469f87.jpg?auto=compress,format&fit=clip&h=383&w=667&s=062806150969c5f8b5ee094633cbae89" alt="Grow: Song of the Evertree">
       <div class="buttons">
@@ -5645,7 +5649,7 @@ Ruins, caves, secret areas… explore and unveil the long-lost knowledge of the 
         <a href="https://store.steampowered.com/app/1380420" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="olliolli world - rad edition">
       <h3>OlliOlli World - Rad Edition</h3>
       <img src="https://hb.imgix.net/e2ad568b70ca71f427dac04c79cf8330dde65507.png?auto=compress,format&fit=clip&h=383&w=667&s=184c8a3936f599d03a198a95ef5460d5" alt="OlliOlli World - Rad Edition">
       <div class="buttons">
@@ -5656,7 +5660,7 @@ Ruins, caves, secret areas… explore and unveil the long-lost knowledge of the 
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the serpent rogue">
       <h3>The Serpent Rogue</h3>
       <img src="https://hb.imgix.net/49165794bd151bf060d657a2681fe7c903fe5095.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ececf66cce3935b2979c8d5ede35dbd4" alt="The Serpent Rogue">
       <div class="buttons">
@@ -5721,7 +5725,7 @@ Follow, join the community and chat with the devs. Look in the external links to
         <a href="https://store.steampowered.com/app/1453790" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hokko life">
       <h3>Hokko Life</h3>
       <img src="https://hb.imgix.net/7b04f4003cee5b20c9792cec52ee38a3232f0572.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e47dcd6ad233705e853d928cc0412a85" alt="Hokko Life">
       <div class="buttons">
@@ -5817,7 +5821,7 @@ Looking for something extra to do? Introduce yourself to Hokko’s townsfolk off
         <a href="https://store.steampowered.com/app/824000" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="doom® eternal">
       <h3>DOOM® Eternal</h3>
       <img src="https://hb.imgix.net/35834f1986080b44016f92ff14201a19ffcf508f.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=9df225e9295d4b1f8f23252759ff5f26" alt="DOOM® Eternal">
       <div class="buttons">
@@ -5860,7 +5864,7 @@ Looking for something extra to do? Introduce yourself to Hokko’s townsfolk off
         <a href="https://store.steampowered.com/app/782330" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="encased: a sci-fi post-apocalyptic rpg">
       <h3>Encased: A Sci-Fi Post-Apocalyptic RPG</h3>
       <img src="https://hb.imgix.net/c6bfa59b8a66bfa6ec4593afc2abbd0b439cc79f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=71860fb9a3ddbb5a455483b85a09cabc" alt="Encased: A Sci-Fi Post-Apocalyptic RPG">
       <div class="buttons">
@@ -5919,7 +5923,7 @@ And every decision you make will impact the story and your gaming experience. We
         <a href="https://store.steampowered.com/app/921800" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tribes of midgard">
       <h3>Tribes of Midgard</h3>
       <img src="https://hb.imgix.net/2521d7dcbabaf53210541b5498037c40bbf5d87c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a69db79ff9e0d6e4859516b570688184" alt="Tribes of Midgard">
       <div class="buttons">
@@ -6070,7 +6074,7 @@ And every decision you make will impact the story and your gaming experience. We
 <section>
   <h2>february-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="othercide">
       <h3>Othercide</h3>
       <img src="https://hb.imgix.net/bb9f2f3c028b234db93ee7e435f36643ed12b160.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=d9ad2ad35f2be9fea77547c7d8933b8b" alt="Othercide">
       <div class="buttons">
@@ -6127,7 +6131,7 @@ And every decision you make will impact the story and your gaming experience. We
         <a href="https://store.steampowered.com/app/798490" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="thronebreaker: the witcher tales">
       <h3>Thronebreaker: The Witcher Tales</h3>
       <img src="https://hb.imgix.net/fb8f558710ae46d03d1aa274af18442284082f38.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=e1a68e666dd2e27752028fa4d685d3c5" alt="Thronebreaker: The Witcher Tales">
       <div class="buttons">
@@ -6161,7 +6165,7 @@ And every decision you make will impact the story and your gaming experience. We
         <a href="https://store.steampowered.com/app/973760" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="fallout 76 + fallout 1 ">
       <h3>Fallout 76 + Fallout 1 </h3>
       <img src="https://hb.imgix.net/1ba49d8f9e28c48cfb5d68f4ae21b9f9aa1a6dc1.png?auto=compress,format&fit=clip&h=383&w=667&s=6f5bf175d200efb71f5d3eac3272fbf6" alt="Fallout 76 + Fallout 1 ">
       <div class="buttons">
@@ -6181,7 +6185,7 @@ And every decision you make will impact the story and your gaming experience. We
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="shady part of me ">
       <h3>Shady Part of Me </h3>
       <img src="https://hb.imgix.net/e3b3f55ffeb8679214a67feb8d05f6838c4349cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1896c33be495866283a81038c52189f0" alt="Shady Part of Me ">
       <div class="buttons">
@@ -6189,7 +6193,7 @@ And every decision you make will impact the story and your gaming experience. We
         <a href="https://store.steampowered.com/app/1116580" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="fobia - st. dinfna hotel">
       <h3>Fobia - St. Dinfna Hotel</h3>
       <img src="https://hb.imgix.net/f98f6e55c0660a139fd3b7734964799bc586033b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0363cffa8d80e5579bf95f9eab994519" alt="Fobia - St. Dinfna Hotel">
       <div class="buttons">
@@ -6238,7 +6242,7 @@ His investigative skills will be needed not only to uncover the truth but to sur
         <a href="https://store.steampowered.com/app/1298140" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="scourgebringer ">
       <h3>Scourgebringer </h3>
       <img src="https://hb.imgix.net/a231019f349403598a2d5a0f33c415d59a96aca4.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=ddb5052bc96ae9f83a508e7c2d901268" alt="Scourgebringer ">
       <div class="buttons">
@@ -6324,7 +6328,7 @@ You can follow its development through our weekly newsletter, or join our Discor
         <a href="https://store.steampowered.com/app/1037020" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="pathfinder: wrath of the righteous">
       <h3>Pathfinder: Wrath of the Righteous</h3>
       <img src="https://hb.imgix.net/e9207e40614b4c266598ff0a143f84b57c4f86ea.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0530185dccb20ee9ff350caa33800ae1" alt="Pathfinder: Wrath of the Righteous">
       <div class="buttons">
@@ -6346,7 +6350,7 @@ You can follow its development through our weekly newsletter, or join our Discor
         <a href="https://store.steampowered.com/app/1184370" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="five dates ">
       <h3>Five Dates </h3>
       <img src="https://hb.imgix.net/c3efa8b53f709a95707d78693650e3e536ec3c96.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6ea378575bebd13623236436de3e2274" alt="Five Dates ">
       <div class="buttons">
@@ -6400,7 +6404,7 @@ Features
 <section>
   <h2>march-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="rogue lords">
       <h3>Rogue Lords</h3>
       <img src="https://hb.imgix.net/f4e7b39a168721b1f344104a888a8d571032faa8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=314a8f0895b7bda4f641792b20cb91b0" alt="Rogue Lords">
       <div class="buttons">
@@ -6486,7 +6490,7 @@ Weakened from defeat to the forces of good, you fled the world and sought refuge
         <a href="https://store.steampowered.com/app/269190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="demon turf">
       <h3>Demon Turf</h3>
       <img src="https://hb.imgix.net/7ef65f3deeab56bf48ff174a3fbfb154326366d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=fdf515a80f783d94d86f7a6a0ad34cc5" alt="Demon Turf">
       <div class="buttons">
@@ -6553,7 +6557,7 @@ From the makers of Slime-san comes their newest creation! The team used everythi
         <a href="https://store.steampowered.com/app/1069690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="jurassic world evolution 2">
       <h3>Jurassic World Evolution 2</h3>
       <img src="https://hb.imgix.net/40578208ac54d6e4e32e2fce9f52fea6408cc423.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11b40e714f33d09886fef6cfab72d495" alt="Jurassic World Evolution 2">
       <div class="buttons">
@@ -6561,7 +6565,7 @@ From the makers of Slime-san comes their newest creation! The team used everythi
         <a href="https://store.steampowered.com/app/1244460" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="biomutant">
       <h3>Biomutant</h3>
       <img src="https://hb.imgix.net/39fd8c20a42eda6865de9e628bac8eccd7dbb880.jpg?auto=compress,format&fit=clip&h=383&w=667&s=21dc2d9b97ad9b26bb2081712d7c196b" alt="Biomutant">
       <div class="buttons">
@@ -6577,7 +6581,7 @@ From the makers of Slime-san comes their newest creation! The team used everythi
         <a href="https://store.steampowered.com/app/597820" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="golden light">
       <h3>Golden Light</h3>
       <img src="https://hb.imgix.net/8c7acf10b8753d6de44e665bcc3c693c0193c9c6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e533a0cbd6f75774e64301f7cd52e0f1" alt="Golden Light">
       <div class="buttons">
@@ -6600,7 +6604,7 @@ From the makers of Slime-san comes their newest creation! The team used everythi
         <a href="https://store.steampowered.com/app/1245430" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hero's hour">
       <h3>Hero's Hour</h3>
       <img src="https://hb.imgix.net/b8d996be14c8f0a4b327a2fd4cf7205aeb7895b7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=691ecfc9a8f560c93865ff64f9d4e04f" alt="Hero's Hour">
       <div class="buttons">
@@ -6625,7 +6629,7 @@ From the makers of Slime-san comes their newest creation! The team used everythi
         <a href="https://store.steampowered.com/app/1656780" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="edge of eternity">
       <h3>Edge Of Eternity</h3>
       <img src="https://hb.imgix.net/cc5109a716d3343524ab6976d03e0a9b94ef0760.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6a05dc92e715a4fa29ba368399deead7" alt="Edge Of Eternity">
       <div class="buttons">
@@ -6727,7 +6731,7 @@ Midgar Studio is a small French independent development studio created in 2008 a
         <a href="https://store.steampowered.com/app/269190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="monster crown">
       <h3>Monster Crown</h3>
       <img src="https://hb.imgix.net/840b7291c20e7e41cce7819abd1c9c2a815eabdc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=abbf6f0699636d80a2549011e051bac2" alt="Monster Crown">
       <div class="buttons">
@@ -6758,7 +6762,7 @@ Midgar Studio is a small French independent development studio created in 2008 a
 <section>
   <h2>april-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="monster prom 2: monster camp">
       <h3>Monster Prom 2: Monster Camp</h3>
       <img src="https://hb.imgix.net/0d18058cef1a8c2813c5eb39a8e10e841a8433a6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e5282497ced40ed9b52d8e045fb6e8fe" alt="Monster Prom 2: Monster Camp">
       <div class="buttons">
@@ -6779,7 +6783,7 @@ We're repeating the best from the popular &quot;Monster Prom&quot; formula, but 
         <a href="https://store.steampowered.com/app/1140270" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="death stranding director's cut">
       <h3>DEATH STRANDING DIRECTOR'S CUT</h3>
       <img src="https://hb.imgix.net/4bc63ce61cb8daa252ae06667443f93b52aefc98.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7adbc6f1c1a51d10148d8b426c93c556" alt="DEATH STRANDING DIRECTOR'S CUT">
       <div class="buttons">
@@ -6819,7 +6823,7 @@ All copies of the game will also additionally include:
         <a href="https://store.steampowered.com/app/1850570" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the life and suffering of sir brante">
       <h3>The Life and Suffering of Sir Brante</h3>
       <img src="https://hb.imgix.net/05ee2f3759c5276898cf3548635132f765cd9021.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e1424f43243e5a54f9ce944d797737d2" alt="The Life and Suffering of Sir Brante">
       <div class="buttons">
@@ -6911,7 +6915,7 @@ is a narrative-driven RPG that comes to life on the pages of the protagonist's j
         <a href="https://store.steampowered.com/app/1272160" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="revita">
       <h3>Revita</h3>
       <img src="https://hb.imgix.net/69c6a3d7b4853938f4f33da4ed270491b0075f72.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6850b21dab88ae3eafb09a2c4fcaee49" alt="Revita">
       <div class="buttons">
@@ -6931,7 +6935,7 @@ is a narrative-driven RPG that comes to life on the pages of the protagonist's j
         <a href="https://store.steampowered.com/app/1175460" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="rollerdrome">
       <h3>Rollerdrome</h3>
       <img src="https://hb.imgix.net/21aa660e3ae82f474c23754a025466ae51ef9a3a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e79be47b464be91ef9cb2f37ce679819" alt="Rollerdrome">
       <div class="buttons">
@@ -6991,7 +6995,7 @@ From Roll7, the minds that brought you the award winning and critically acclaime
         <a href="https://store.steampowered.com/app/1294420" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="aliens: fireteam elite">
       <h3>Aliens: Fireteam Elite</h3>
       <img src="https://hb.imgix.net/a5e3f581c0cb2e83c954607e8463bd61a48e17b8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4112f5abd0ec42d864bf0c936c5a3442" alt="Aliens: Fireteam Elite">
       <div class="buttons">
@@ -7007,7 +7011,7 @@ From Roll7, the minds that brought you the award winning and critically acclaime
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="life is strange 2: complete season">
       <h3>Life is Strange 2: Complete Season</h3>
       <img src="https://hb.imgix.net/c7c481549f9262b09942a06ad567514357c4ffbb.png?auto=compress,format&fit=clip&h=383&w=667&s=22c3689942e31017551985d7e2349f0e" alt="Life is Strange 2: Complete Season">
       <div class="buttons">
@@ -7021,7 +7025,7 @@ From Roll7, the minds that brought you the award winning and critically acclaime
         <a href="https://store.steampowered.com/app/532210" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="founders' fortune">
       <h3>Founders' Fortune</h3>
       <img src="https://hb.imgix.net/4908c95bc2da21c8ed0b9466670705d6d1aab29d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8d4df5eac7b7a15eae0d5bfd21fa56e6" alt="Founders' Fortune">
       <div class="buttons">
@@ -7152,7 +7156,7 @@ Check out new mods for Founders’ Fortune on the Steam Workshop or make your ow
 <section>
   <h2>may-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="spiritfarer: farewell edition">
       <h3>Spiritfarer: Farewell Edition</h3>
       <img src="https://hb.imgix.net/95285e01875b7edb3eda01c6e8c76e284d4ff441.jpg?auto=compress,format&fit=clip&h=383&w=667&s=46c45f08ebde04672f8e952d39177235" alt="Spiritfarer: Farewell Edition">
       <div class="buttons">
@@ -7187,7 +7191,7 @@ Check out new mods for Founders’ Fortune on the Steam Workshop or make your ow
         <a href="https://store.steampowered.com/app/972660" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="operation: tango">
       <h3>Operation: Tango</h3>
       <img src="https://hb.imgix.net/68bcbec1f5d01d8b5c17306bb6d4e295a71b9d32.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4080afcfdaa6dc1823382c4d8841e17d" alt="Operation: Tango">
       <div class="buttons">
@@ -7195,7 +7199,7 @@ Check out new mods for Founders’ Fortune on the Steam Workshop or make your ow
         <a href="https://store.steampowered.com/app/1335790" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="bendy and the dark revival">
       <h3>Bendy and the Dark Revival</h3>
       <img src="https://hb.imgix.net/7baa85a536d4e812f7b93cbf476d2b0d8ce0b1fc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=043ccd3dbdd22756b2548075d54e22dd" alt="Bendy and the Dark Revival">
       <div class="buttons">
@@ -7244,7 +7248,7 @@ Discover the truth. Escape the studio. Above all, fear the Ink Demon…and survi
         <a href="https://store.steampowered.com/app/1063660" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="warhammer 40,000: chaos gate - daemonhunters">
       <h3>Warhammer 40,000: Chaos Gate - Daemonhunters</h3>
       <img src="https://hb.imgix.net/e92658eb68e93ee039f401b98450210db3578fc4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a22141486375487fd378ba1a0a155b9" alt="Warhammer 40,000: Chaos Gate - Daemonhunters">
       <div class="buttons">
@@ -7359,7 +7363,7 @@ Charge headlong into fast-paced tactical combat. Eviscerate and execute enemies 
         <a href="https://store.steampowered.com/app/1611910" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="windjammers 2">
       <h3>Windjammers 2</h3>
       <img src="https://hb.imgix.net/3b7fdc2ca37921f20700d0d3b272bdee51d610a7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b417ef7496ea8bfd768b07c14b30a24" alt="Windjammers 2">
       <div class="buttons">
@@ -7486,7 +7490,7 @@ The all-round athlete Jordi comes back in the game after 10 years of training. H
         <a href="https://store.steampowered.com/app/1114290" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="behind the frame: the finest scenery">
       <h3>Behind the Frame: The Finest Scenery</h3>
       <img src="https://hb.imgix.net/092cef544f55225a00df5da3fbd2fc841b8b8b07.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f528f531b364c44c298c2aeacf08c9da" alt="Behind the Frame: The Finest Scenery">
       <div class="buttons">
@@ -7520,7 +7524,7 @@ As a passionate artist, seek the missing colors that will bring your paintings t
         <a href="https://store.steampowered.com/app/1634150" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="builder simulator">
       <h3>Builder Simulator</h3>
       <img src="https://hb.imgix.net/66a87ee59173a5922ccde77b0736fcc3f8a74402.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a2528ceb791aa5b3e5bdc08ce47c9bcc" alt="Builder Simulator">
       <div class="buttons">
@@ -7564,7 +7568,7 @@ Leaving this creation to rot on your computer would be such a waste, right? That
         <a href="https://store.steampowered.com/app/1120320" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the invisible hand">
       <h3>The Invisible Hand</h3>
       <img src="https://hb.imgix.net/55f111f746dcc9c8e5be3f7a10bdf1c65afd8e7c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=76c5f168c31d397e1fae209215b4927c" alt="The Invisible Hand">
       <div class="buttons">
@@ -7640,7 +7644,7 @@ The fruits of success are yours for the taking. Fast cars, lavish parties, fancy
 <section>
   <h2>june-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="turbo golf racing">
       <h3>Turbo Golf Racing</h3>
       <img src="https://hb.imgix.net/d1da87737f7e0454d1c7e6d9b00b7a09a37bcd99.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2e6a8917060b8ba5d6aa4fe59e2a726c" alt="Turbo Golf Racing">
       <div class="buttons">
@@ -7693,7 +7697,7 @@ Use your wings, wheels and wit to navigate the terrain, taking advantage of boos
         <a href="https://store.steampowered.com/app/1324350" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="honey i joined a cult">
       <h3>Honey I Joined a Cult</h3>
       <img src="https://hb.imgix.net/08d9c50fa8ed4780efe46b672e528976722d820f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3e9414d30016e0c5d7a05cd42b46a037" alt="Honey I Joined a Cult">
       <div class="buttons">
@@ -7748,7 +7752,7 @@ Cultists can be sent on missions in the local town. Whether it's gathering resou
         <a href="https://store.steampowered.com/app/841190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="eternal threads">
       <h3>Eternal Threads</h3>
       <img src="https://hb.imgix.net/2c9b5f2c44cde0994371ba90061492ac74d2e86e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=627d1ab493044741bca531d7a5bbef93" alt="Eternal Threads">
       <div class="buttons">
@@ -7825,7 +7829,7 @@ Setting up temporary base in the house mere hours after the fire, provides a uni
         <a href="https://store.steampowered.com/app/841190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="meeple station">
       <h3>Meeple Station</h3>
       <img src="https://hb.imgix.net/a2bc7f414a1844a9e0dc6b6abeada77abf402543.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=7f1bfbc4dfaaca42846564258f179768" alt="Meeple Station">
       <div class="buttons">
@@ -7902,7 +7906,7 @@ Setting up temporary base in the house mere hours after the fire, provides a uni
         <a href="https://store.steampowered.com/app/900010" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="grime">
       <h3>GRIME</h3>
       <img src="https://hb.imgix.net/09fff739bb28d8f405a9e411eff7dedef0d2045e.png?auto=compress,format&fit=clip&h=383&w=667&s=374957d93295975efbeaffd81b857fa0" alt="GRIME">
       <div class="buttons">
@@ -7920,7 +7924,7 @@ Setting up temporary base in the house mere hours after the fire, provides a uni
         <a href="https://store.steampowered.com/app/1123050" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="curse of the dead gods">
       <h3>Curse of the Dead Gods</h3>
       <img src="https://hb.imgix.net/c06b31fc82a69b026157e7e902bd4017e3386c6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d58ddb0739b1299846b8078b097d274" alt="Curse of the Dead Gods">
       <div class="buttons">
@@ -7945,7 +7949,7 @@ Setting up temporary base in the house mere hours after the fire, provides a uni
         <a href="https://store.steampowered.com/app/1123770" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="ghostwire tokyo ">
       <h3>Ghostwire Tokyo </h3>
       <img src="https://hb.imgix.net/38a08f882b7985c7c3d0a93ec41bbaf234333afe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=aea6bbe38452dd6c7bd54179b59c57d4" alt="Ghostwire Tokyo ">
       <div class="buttons">
@@ -7984,7 +7988,7 @@ Free for all players, the Spider's Thread update contains several additions to t
         <a href="https://store.steampowered.com/app/1475810" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="remnant: from the ashes - complete edition">
       <h3>Remnant: From the Ashes - Complete Edition</h3>
       <img src="https://hb.imgix.net/75f2d8341d03fe98ef96ed9789b4566526c973a0.png?auto=compress,format&fit=clip&h=383&w=667&s=8c82c1b1d99bc876f6a1b24be18aa200" alt="Remnant: From the Ashes - Complete Edition">
       <div class="buttons">
@@ -8003,7 +8007,7 @@ Free for all players, the Spider's Thread update contains several additions to t
 <section>
   <h2>july-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="shotgun king: the final checkmate">
       <h3>Shotgun King: The Final Checkmate</h3>
       <img src="https://hb.imgix.net/f21fbfe2607acfedbb0cabf3636c055a019e29f8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f52f9f941cd4c826988cf3551b15fc34" alt="Shotgun King: The Final Checkmate">
       <div class="buttons">
@@ -8018,7 +8022,7 @@ Runs may take ~20 minutes to complete. The game features 15 ranks of difficulty,
         <a href="https://store.steampowered.com/app/1972440" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="ozymandias: bronze age empire sim">
       <h3>Ozymandias: Bronze Age Empire Sim</h3>
       <img src="https://hb.imgix.net/ca231d3229b6477579c54dd5df4041129c36cb87.jpg?auto=compress,format&fit=clip&h=383&w=667&s=675fdba6d194c9d5f3d5a2c852c70ad1" alt="Ozymandias: Bronze Age Empire Sim">
       <div class="buttons">
@@ -8049,7 +8053,7 @@ Runs may take ~20 minutes to complete. The game features 15 ranks of difficulty,
         <a href="https://store.steampowered.com/app/1768280" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="merchant of the skies">
       <h3>Merchant of the Skies</h3>
       <img src="https://hb.imgix.net/1ec7cbbd407c731229423718598b8f4e76d99f7f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=36266ba89217fb3e34d9d86a240ec5ee" alt="Merchant of the Skies">
       <div class="buttons">
@@ -8114,7 +8118,7 @@ In <i>Merchant of the Skies</i> you're the captain of an airship! Sell items, ga
         <a href="https://store.steampowered.com/app/1040070" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the outer worlds: spacer's choice edition">
       <h3>The Outer Worlds: Spacer's Choice Edition</h3>
       <img src="https://hb.imgix.net/f04ab675768fbb0882355af2d91154a7ffe4c1cc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c58d1181673dd6141668728a4a1845ef" alt="The Outer Worlds: Spacer's Choice Edition">
       <div class="buttons">
@@ -8122,7 +8126,7 @@ In <i>Merchant of the Skies</i> you're the captain of an airship! Sell items, ga
         <a href="https://store.steampowered.com/app/1920490" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="roadwarden">
       <h3>Roadwarden</h3>
       <img src="https://hb.imgix.net/85b553ed13c82d59422fd30e017ed6f0405d8e61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a37838b86fff166eb9de276186c1bdf9" alt="Roadwarden">
       <div class="buttons">
@@ -8134,7 +8138,7 @@ In <i>Merchant of the Skies</i> you're the captain of an airship! Sell items, ga
         <a href="https://store.steampowered.com/app/1155970" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="temtem">
       <h3>Temtem</h3>
       <img src="https://hb.imgix.net/1abcf2add2c1b2e80857ac9f50ee2966a4a975cb.png?auto=compress,format&fit=clip&h=383&w=667&s=e2f53fee99547cf3cf7907e7a69eddc1" alt="Temtem">
       <div class="buttons">
@@ -8238,7 +8242,7 @@ where <i>Temtem</i> and humans coexist peacefully. Each island is a whole differ
         <a href="https://store.steampowered.com/app/745920" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="yakuza 4 remastered">
       <h3>Yakuza 4 Remastered</h3>
       <img src="https://hb.imgix.net/7a68e738dfbb01cbde1d80d3a943774e5b603c2c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=481bdbf3406d84fee8a06fb939ba10f9" alt="Yakuza 4 Remastered">
       <div class="buttons">
@@ -8259,7 +8263,7 @@ Complete The Dragon of Dojima’s journey.
         <a href="https://store.steampowered.com/app/1105500" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="kraken academy!!">
       <h3>Kraken Academy!!</h3>
       <img src="https://hb.imgix.net/65ad335a0ed35e3634c2fd0fb1a5e6ab0d1a74ff.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3318a10a4663303db16ff55af815e47e" alt="Kraken Academy!!">
       <div class="buttons">
@@ -8283,7 +8287,7 @@ Complete The Dragon of Dojima’s journey.
 <section>
   <h2>august-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="suchart: genius artist simulator">
       <h3>SuchArt: Genius Artist Simulator</h3>
       <img src="https://hb.imgix.net/e6fb6821bfa0ef163948242392b38ce1d5976ee3.png?auto=compress,format&fit=clip&h=383&w=667&s=6d23d5580fa7be5d1e0dff0d4d437b2c" alt="SuchArt: Genius Artist Simulator">
       <div class="buttons">
@@ -8293,7 +8297,7 @@ Complete The Dragon of Dojima’s journey.
         <a href="https://store.steampowered.com/app/1293180" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hot brass">
       <h3>Hot Brass</h3>
       <img src="https://hb.imgix.net/b8fc6bfb0dd88ef6c49e633a8ee5b95e95d54ab4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75eabf69db3dba2db0fcf934bc584dec" alt="Hot Brass">
       <div class="buttons">
@@ -8311,7 +8315,7 @@ Complete The Dragon of Dojima’s journey.
         <a href="https://store.steampowered.com/app/892860" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="trek to yomi">
       <h3>Trek to Yomi</h3>
       <img src="https://hb.imgix.net/bea5576bfcee34511b1cb237cb4bd2c8ba59fb5a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2f33c0941a66729dc54e49987b40d515" alt="Trek to Yomi">
       <div class="buttons">
@@ -8348,7 +8352,7 @@ The thrilling action and somber moments are set against a memorable score design
         <a href="https://store.steampowered.com/app/1370050" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="arcade paradise">
       <h3>Arcade Paradise</h3>
       <img src="https://hb.imgix.net/03023b6b7424596bdb5f489b0c8631ac47f4df4a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=24f27e7105a0b6ab8b4969d1323c716f" alt="Arcade Paradise">
       <div class="buttons">
@@ -8384,7 +8388,7 @@ The thrilling action and somber moments are set against a memorable score design
         <a href="https://store.steampowered.com/app/1388870" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="road 96">
       <h3>Road 96</h3>
       <img src="https://hb.imgix.net/cdb70daf9aa8527babf2ae6ae20ee93b819adef3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=96ab2c014a17aadd475f07a69220f5f7" alt="Road 96">
       <div class="buttons">
@@ -8424,7 +8428,7 @@ A stunning visual style, a soundtrack filled with 90s hits, and a thousand route
         <a href="https://store.steampowered.com/app/1466640" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tin can">
       <h3>Tin Can</h3>
       <img src="https://hb.imgix.net/f592a0bb5421f1f69dc4c59ba68e3b847ebc1d9e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8fcead49feefc4a2ac629fbfc5af9910" alt="Tin Can">
       <div class="buttons">
@@ -8587,7 +8591,7 @@ As a random member of your colony's space program, you leave Mars aboard a large
         <a href="https://store.steampowered.com/app/1315980" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="disco elysium - the final cut">
       <h3>Disco Elysium - The Final Cut</h3>
       <img src="https://hb.imgix.net/6b87bcf48b39c06d2315b052239321de55512e7c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d8bc2acf5f54f05bebbbaa2f1bc9e9c4" alt="Disco Elysium - The Final Cut">
       <div class="buttons">
@@ -8645,7 +8649,7 @@ Explore, manipulate, collect tare, or become a millionaire in an open world unli
         <a href="https://store.steampowered.com/app/632470" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="chivalry 2 - epic edition">
       <h3>Chivalry 2 - Epic Edition</h3>
       <img src="https://hb.imgix.net/126aa8b6fb0bf0bc5ffb7fb4844e911a9eaa371c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5ce919ece9b5ef3e8f1565f1fd450b95" alt="Chivalry 2 - Epic Edition">
       <div class="buttons">
@@ -8696,7 +8700,7 @@ Charge to battle alongside your friends with all-platform Crossplay and claim gl
 <section>
   <h2>september-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="patch quest ">
       <h3>Patch Quest </h3>
       <img src="https://hb.imgix.net/3662905c398f8200323bf767431eed9d84fe88de.jpg?auto=compress,format&fit=clip&h=383&w=667&s=11f8db2780918b778eb3eb503ec179fe" alt="Patch Quest ">
       <div class="buttons">
@@ -8778,7 +8782,7 @@ You’ll need to make use of everything you find to survive out here!
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="aces & adventures ">
       <h3>Aces & Adventures </h3>
       <img src="https://hb.imgix.net/ad0bdd936cb2a2b61e7e483c45d7466084048855.jpg?auto=compress,format&fit=clip&h=383&w=667&s=16e785dcdd97359bf3e77c5760889cef" alt="Aces & Adventures ">
       <div class="buttons">
@@ -8888,7 +8892,7 @@ A unique combination of traditional playing cards and special ability cards sits
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the forgotten city">
       <h3>The Forgotten City</h3>
       <img src="https://hb.imgix.net/bda31fe6d5d6fa44b10b28d22b3aa651da23791a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f772ca576f10318d8b50a819947c63cf" alt="The Forgotten City">
       <div class="buttons">
@@ -8927,7 +8931,7 @@ Travel 2,000 years into the past and relive the final days of a cursed Roman cit
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="deceive inc.">
       <h3>Deceive Inc.</h3>
       <img src="https://hb.imgix.net/692eba7e29cf0fd8d3f52dc30e53ac9b2ae6ec69.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ae49ed9eaddd48d9edc77fda1085765e" alt="Deceive Inc.">
       <div class="buttons">
@@ -8982,7 +8986,7 @@ Infiltrate sprawling locations filled with people to suspect, electronics to hac
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tiny tina's wonderlands chaotic great edition ">
       <h3>Tiny Tina's Wonderlands Chaotic Great Edition </h3>
       <img src="https://hb.imgix.net/e0d3c271ca8510984b54e56e6d9acfcbd5b22a6e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=90627b9e7d96e6a1901ef2187241e183" alt="Tiny Tina's Wonderlands Chaotic Great Edition ">
       <div class="buttons">
@@ -8990,7 +8994,7 @@ Infiltrate sprawling locations filled with people to suspect, electronics to hac
         <a href="https://store.steampowered.com/app/1286680" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="autonauts vs piratebots">
       <h3>Autonauts vs PirateBots</h3>
       <img src="https://hb.imgix.net/fd2fb9a114eaa81256ed2aae9d19aa2e12ae1452.jpg?auto=compress,format&fit=clip&h=383&w=667&s=79bf674477ccd6ef255190bf8384e02a" alt="Autonauts vs PirateBots">
       <div class="buttons">
@@ -9066,7 +9070,7 @@ Automate to defend! Defend to automate!
         <a href="https://store.steampowered.com/app/1907720" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="foretales ">
       <h3>Foretales </h3>
       <img src="https://hb.imgix.net/879dc4c1fd962aa0b5b771e93a5354b9ad0ee287.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b95336bcee011cbb4b97f58cc04bcda2" alt="Foretales ">
       <div class="buttons">
@@ -9094,7 +9098,7 @@ Automate to defend! Defend to automate!
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="who pressed mute on uncle marcus">
       <h3>Who Pressed Mute on Uncle Marcus</h3>
       <img src="https://hb.imgix.net/965073cc089ea2c5eeedf71dbd62172367cd6bc7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8c14e5719a2fdd0314a26ad548cd6d7e" alt="Who Pressed Mute on Uncle Marcus">
       <div class="buttons">
@@ -9133,7 +9137,7 @@ Automate to defend! Defend to automate!
 <section>
   <h2>october-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="rebel inc: escalation">
       <h3>Rebel Inc: Escalation</h3>
       <img src="https://hb.imgix.net/539f1a19818c4a1bcdefac41eb68832a480e88da.jpg?auto=compress,format&fit=clip&h=383&w=667&s=989f0136f5f9e33ac6d9bd3ea752afa4" alt="Rebel Inc: Escalation">
       <div class="buttons">
@@ -9256,7 +9260,7 @@ An important note: Although a fictional game, Rebel Inc. looks at important real
         <a href="https://store.steampowered.com/app/1088790" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="lords and villeins">
       <h3>Lords and Villeins</h3>
       <img src="https://hb.imgix.net/5f206b650b06e4c967f4d7c79910da588c1e8b78.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b0c78511fbe48d5c9f2daacafb03e1da" alt="Lords and Villeins">
       <div class="buttons">
@@ -9357,7 +9361,7 @@ At the heart of its design is an emotional journey - seeing your villagers grow,
         <a href="https://store.steampowered.com/app/1287530" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dark pictures anthology: house of ashes">
       <h3>Dark Pictures Anthology: House of Ashes</h3>
       <img src="https://hb.imgix.net/abf1137a7e59e92dc6de4411abed34cd026b2c2f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c1e1f52cd349ac7094bf68ec1fa51ff2" alt="Dark Pictures Anthology: House of Ashes">
       <div class="buttons">
@@ -9417,7 +9421,7 @@ The Curator's cut is only available once you have completed the main story.
         <a href="https://store.steampowered.com/app/1281590" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="metal hellsinger">
       <h3>Metal Hellsinger</h3>
       <img src="https://hb.imgix.net/8bccced407e23208d9ff4ce2057bd1938b8ee2d3.jpg?auto=compress,format&fit=clip&h=383&w=667&s=aeb15f7690df41bdba7f921615e37f2e" alt="Metal Hellsinger">
       <div class="buttons">
@@ -9429,7 +9433,7 @@ The Curator's cut is only available once you have completed the main story.
         <a href="https://store.steampowered.com/app/1061910" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="spirit of the island">
       <h3>Spirit of the Island</h3>
       <img src="https://hb.imgix.net/8b0647acc2b0138e9a606dc37608bdf5f4d88588.png?auto=compress,format&fit=clip&h=383&w=667&s=d5ddfeba431302735deaa2163f5d85be" alt="Spirit of the Island">
       <div class="buttons">
@@ -9447,7 +9451,7 @@ The Curator's cut is only available once you have completed the main story.
         <a href="https://store.steampowered.com/app/1592110" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="a juggler's tale">
       <h3>A Juggler's Tale</h3>
       <img src="https://hb.imgix.net/efe285a4d18976c490ff54e22bd7ee78b9c5e331.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7d25e2f43e4ca56e3f8ebb5070f1e57c" alt="A Juggler's Tale">
       <div class="buttons">
@@ -9513,7 +9517,7 @@ Who can Abby trust? Can she find a way to truly break free? Despite dangling fro
         <a href="https://store.steampowered.com/app/1252830" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="mr. prepper">
       <h3>Mr. Prepper</h3>
       <img src="https://hb.imgix.net/24de57404a7edf3146208197da775cfb0a909cac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=34af62d8211a242d01a8987a2915fe23" alt="Mr. Prepper">
       <div class="buttons">
@@ -9535,7 +9539,7 @@ Who can Abby trust? Can she find a way to truly break free? Despite dangling fro
         <a href="https://store.steampowered.com/app/761830" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the quarry deluxe edition">
       <h3>The Quarry Deluxe Edition</h3>
       <img src="https://hb.imgix.net/0e5fe82a0a4ecc134930215be741f12ebb5b791a.jpeg?auto=compress,format&fit=clip&h=383&w=667&s=bdd28344969ed64c239e090ccaf35008" alt="The Quarry Deluxe Edition">
       <div class="buttons">
@@ -9657,7 +9661,7 @@ Ted Raimi as Travis
 <section>
   <h2>november-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="the legend of tianding">
       <h3>The Legend of Tianding</h3>
       <img src="https://hb.imgix.net/21e4da07feaba79fe1f1c936940f67cd58ccde76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d2c33530cc7d03de8515bc6064ed9c27" alt="The Legend of Tianding">
       <div class="buttons">
@@ -9665,7 +9669,7 @@ Ted Raimi as Travis
         <a href="https://store.steampowered.com/app/1406850" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="prodeus">
       <h3>Prodeus</h3>
       <img src="https://hb.imgix.net/bd892663cca6ed23c1928d377766573390baa0e9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0679669339096861720e000b9dbae17d" alt="Prodeus">
       <div class="buttons">
@@ -9747,7 +9751,7 @@ Burst blood vessels listening to a supercharged metal soundtrack by retro FPS co
         <a href="https://store.steampowered.com/app/964800" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="friends vs friends">
       <h3>Friends vs Friends</h3>
       <img src="https://hb.imgix.net/f2db4a0b19a7d18b49f375150cc1adf24ae902e7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=12c42b36b2084ace3ac4a98ed12aee52" alt="Friends vs Friends">
       <div class="buttons">
@@ -9770,7 +9774,7 @@ Burst blood vessels listening to a supercharged metal soundtrack by retro FPS co
         <a href="https://store.steampowered.com/app/1785150" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="wwe 2k23">
       <h3>WWE 2K23</h3>
       <img src="https://hb.imgix.net/8f4ebd43cd8218dda6535d0aee580735dddba9dd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=640e4b2576cd7c7e1909fe92739fd416" alt="WWE 2K23">
       <div class="buttons">
@@ -9825,7 +9829,7 @@ WWE Universe Mode is the ultimate sandbox that puts you in charge of WWE, from S
         <a href="https://store.steampowered.com/app/1942660" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="souldiers">
       <h3>Souldiers</h3>
       <img src="https://hb.imgix.net/8250256f2f89a92178b8ebbe0c9f47394d970992.jpg?auto=compress,format&fit=clip&h=383&w=667&s=23ec7453a320fd96ff89354c8e0d9b5b" alt="Souldiers">
       <div class="buttons">
@@ -9874,7 +9878,7 @@ Smart moves: Solve environmental puzzles and leap from place to place using an e
         <a href="https://store.steampowered.com/app/1374970" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="scp: secret files">
       <h3>SCP: Secret Files</h3>
       <img src="https://hb.imgix.net/aae78ae114a508bad98eb2fad0f1c7f72f426e31.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a4dad653b2fc323b2743fdff42c9b6ac" alt="SCP: Secret Files">
       <div class="buttons">
@@ -9922,7 +9926,7 @@ The world of the SCP Foundation covers a wide variety of ideas, encompassing peo
         <a href="https://store.steampowered.com/app/1718130" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hardspace: shipbreaker">
       <h3>Hardspace: Shipbreaker</h3>
       <img src="https://hb.imgix.net/bc7bc6cdf42f799296cb2b485708ab8bfd412105.jpg?auto=compress,format&fit=clip&h=383&w=667&s=102b108fc152ee8b5ae4fc74ae7e5ad6" alt="Hardspace: Shipbreaker">
       <div class="buttons">
@@ -9990,7 +9994,7 @@ Careful where you point those tools! Hazards include explosive decompression, fu
         <a href="https://store.steampowered.com/app/1161580" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="unpacking">
       <h3>Unpacking</h3>
       <img src="https://hb.imgix.net/36119e35ef1792274ae5b08aa94f55db7f951760.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d65d464160e022953f6164c47e0ffd75" alt="Unpacking">
       <div class="buttons">
@@ -10039,7 +10043,7 @@ Careful where you point those tools! Hazards include explosive decompression, fu
 <section>
   <h2>december-2023</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="last call bbs">
       <h3>Last Call BBS</h3>
       <img src="https://hb.imgix.net/d03d46ab30fc34485f4c41cc4619d13e23b60c7b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=467ffc0b40579f47d9e7cf236313c68a" alt="Last Call BBS">
       <div class="buttons">
@@ -10129,7 +10133,7 @@ Plus:
         <a href="https://store.steampowered.com/app/1511780" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="midnight fight express">
       <h3>Midnight Fight Express</h3>
       <img src="https://hb.imgix.net/7eb961691349d49d410519cab39654c637c971ae.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b13f7c96191d7a5d1102e5cab74e3ed" alt="Midnight Fight Express">
       <div class="buttons">
@@ -10186,7 +10190,7 @@ Return to missions to complete challenges, unlock rewards, and show everyone who
         <a href="https://store.steampowered.com/app/1390410" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="from space">
       <h3>From Space</h3>
       <img src="https://hb.imgix.net/93cc80708899c1477f08ca7158ff076a1c28ce6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=45d7f467cf9832248ae581003d4d034f" alt="From Space">
       <div class="buttons">
@@ -10194,7 +10198,7 @@ Return to missions to complete challenges, unlock rewards, and show everyone who
         <a href="https://store.steampowered.com/app/1502190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="nobody saves the world">
       <h3>Nobody Saves the World</h3>
       <img src="https://hb.imgix.net/e3afd89b5ce6397c1d2a02b6d89e998907ebdb32.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0afcafce8bfaac9c2fd85e973e187f43" alt="Nobody Saves the World">
       <div class="buttons">
@@ -10280,7 +10284,7 @@ Complete quests to discover and swap between 15+ varied and distinct Forms. Mix 
         <a href="https://store.steampowered.com/app/1432050" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="get two months of ign plus">
       <h3>Get Two Months of IGN Plus</h3>
       <img src="https://hb.imgix.net/23f5e62ceb0890970ae513f48cf2ee6a304d877f.png?auto=compress,format&fit=clip&h=383&w=667&s=dbd2c67f3331731557bf25a609e3e999" alt="Get Two Months of IGN Plus">
       <div class="buttons">
@@ -10288,7 +10292,7 @@ Complete quests to discover and swap between 15+ varied and distinct Forms. Mix 
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dc universe infinite 1-month free trial">
       <h3>DC Universe Infinite 1-Month Free Trial</h3>
       <img src="https://hb.imgix.net/8a7d4391c87a768af78ae560607b715fde40ae96.png?auto=compress,format&fit=clip&h=383&w=667&s=299f6655bd929177bf7a1c612a37daa5" alt="DC Universe Infinite 1-Month Free Trial">
       <div class="buttons">
@@ -10297,7 +10301,7 @@ Complete quests to discover and swap between 15+ varied and distinct Forms. Mix 
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="expeditions: rome">
       <h3>Expeditions: Rome</h3>
       <img src="https://hb.imgix.net/175a1395143ebba066f884f7b7a631851482e7d5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8973e2afbaa96404af5653c461b17ba3" alt="Expeditions: Rome">
       <div class="buttons">
@@ -10348,7 +10352,7 @@ In <i>Expeditions: Rome</i>, you exert the will of Rome through your actions acr
         <a href="https://store.steampowered.com/app/987840" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the pale beyond">
       <h3>The Pale Beyond</h3>
       <img src="https://hb.imgix.net/5e460c434f36adab400275f6dfff1d23e9e4e3e5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=09cfb005b4d1db869fed7f90e4c93920" alt="The Pale Beyond">
       <div class="buttons">
@@ -10362,7 +10366,7 @@ In <i>Expeditions: Rome</i>, you exert the will of Rome through your actions acr
         <a href="https://store.steampowered.com/app/1266030" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="elex ii">
       <h3>ELEX II</h3>
       <img src="https://hb.imgix.net/ffafdf314998dd5dcc286451af27f061a313f10b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75304808b2630ab70c234f24defc0dba" alt="ELEX II">
       <div class="buttons">
@@ -10423,7 +10427,7 @@ The game allows you to:
         <a href="https://store.steampowered.com/app/900040" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the gunk">
       <h3>The Gunk</h3>
       <img src="https://hb.imgix.net/031dfc9be329c8a9adc325f6affc424c7e14b86a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d74272c34e69ef60535f49a4918dc15c" alt="The Gunk">
       <div class="buttons">
@@ -10500,7 +10504,7 @@ What does it all mean? What role can Rani play in the fate of this evocative, mo
 <section>
   <h2>january-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="midnight suns - doctor strange defenders skin">
       <h3>Midnight Suns - Doctor Strange Defenders Skin</h3>
       <img src="https://hb.imgix.net/70d809acabc33ba75366ed003c2a201ca9f9b146.jpg?auto=compress,format&fit=clip&h=383&w=667&s=dd4f28c491def166d2b32723d73a2052" alt="Midnight Suns - Doctor Strange Defenders Skin">
       <div class="buttons">
@@ -10512,7 +10516,7 @@ What does it all mean? What role can Rani play in the fate of this evocative, mo
         <a href="https://store.steampowered.com/app/1712442" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="two point campus">
       <h3>Two Point Campus</h3>
       <img src="https://hb.imgix.net/262cf09ef53e343ad11a11f894902c1c4570dda1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ffc08e85b25e1f4a22ef303c9f7d63cd" alt="Two Point Campus">
       <div class="buttons">
@@ -10526,7 +10530,7 @@ What does it all mean? What role can Rani play in the fate of this evocative, mo
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="roguebook ">
       <h3>Roguebook </h3>
       <img src="https://hb.imgix.net/5deff697f2b160c1c8bbaae73ba6e5b0f6a69251.jpg?auto=compress,format&fit=clip&h=383&w=667&s=98925f47209f5d526458019f25a6c218" alt="Roguebook ">
       <div class="buttons">
@@ -10682,7 +10686,7 @@ You are trapped in the Book of Lore of
         <a href="https://store.steampowered.com/app/1076200" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="aragami 2 ">
       <h3>Aragami 2 </h3>
       <img src="https://hb.imgix.net/174491182396f1f713085e44e879bde1f7150948.jpg?auto=compress,format&fit=clip&h=383&w=667&s=31fe19c305b326e7645ec6746d7741f1" alt="Aragami 2 ">
       <div class="buttons">
@@ -10751,7 +10755,7 @@ Save your people and defeat the curse before it ends with you and discover how t
         <a href="https://store.steampowered.com/app/1158370" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="otxo ">
       <h3>OTXO </h3>
       <img src="https://hb.imgix.net/d912225eb9659b2322610594a2c5b426cd2a4bde.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee5b0462bc699a1cdea019757c7ca165" alt="OTXO ">
       <div class="buttons">
@@ -10763,7 +10767,7 @@ Save your people and defeat the curse before it ends with you and discover how t
         <a href="https://store.steampowered.com/app/1608640" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the red lantern ">
       <h3>The Red Lantern </h3>
       <img src="https://hb.imgix.net/2b8366264ce8c987b2961b9f13d98f4519e79ea4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4aeb90943cd42753d5c648b934aa311" alt="The Red Lantern ">
       <div class="buttons">
@@ -10831,7 +10835,7 @@ Thank you for checking out <i>The Red Lantern</i>. We appreciate the support!
         <a href="https://store.steampowered.com/app/1053710" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hell pie">
       <h3>Hell Pie</h3>
       <img src="https://hb.imgix.net/edf3070b8119aa0b808b09d5220e75faccb8d068.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2aeb483812286139b5ee331ab4b7ade2" alt="Hell Pie">
       <div class="buttons">
@@ -10925,7 +10929,7 @@ is a seriously twisted take on the classic mascot platformer, come along for the
         <a href="https://store.steampowered.com/app/889910" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="marvel's midnight suns digital+ edition">
       <h3>Marvel's Midnight Suns Digital+ Edition</h3>
       <img src="https://hb.imgix.net/8a617b55b388cd9e0d5dea7f67483d11cdd22d54.png?auto=compress,format&fit=clip&h=383&w=667&s=d0d8fe958f942a74f2d40a05eb8165e2" alt="Marvel's Midnight Suns Digital+ Edition">
       <div class="buttons">
@@ -10933,7 +10937,7 @@ is a seriously twisted take on the classic mascot platformer, come along for the
         <a href="https://store.steampowered.com/app/368260" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="twin mirror">
       <h3>Twin Mirror</h3>
       <img src="https://hb.imgix.net/38ebba214db6684814c8e89934f06c724b0fdeac.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53752e4987e2cde14980a92773b76afa" alt="Twin Mirror">
       <div class="buttons">
@@ -10971,7 +10975,7 @@ In <i>Twin Mirror</i>, every decision you make alters the course of your investi
 <section>
   <h2>february-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="beacon pines">
       <h3>Beacon Pines</h3>
       <img src="https://hb.imgix.net/0961de39dbf6c6bf96012b8fe20d3829a24c0fad.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7b7a27975567e23541d78815ee7ed848" alt="Beacon Pines">
       <div class="buttons">
@@ -10987,7 +10991,7 @@ In <i>Twin Mirror</i>, every decision you make alters the course of your investi
         <a href="https://store.steampowered.com/app/1269640" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="children of silentown">
       <h3>Children of Silentown</h3>
       <img src="https://hb.imgix.net/6267cae5602517051d07f9da11688b7378fcb565.jpg?auto=compress,format&fit=clip&h=383&w=667&s=55bca7eb1f3e55a1e0a7f31a53aa4a62" alt="Children of Silentown">
       <div class="buttons">
@@ -11005,7 +11009,7 @@ In <i>Twin Mirror</i>, every decision you make alters the course of your investi
         <a href="https://store.steampowered.com/app/1108000" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="destroy all humans 2! reprobed">
       <h3>Destroy All Humans 2! Reprobed</h3>
       <img src="https://hb.imgix.net/f1811849a163a8dc7914ed6615f2bf2e7096c60b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2fb79a0e10b1975e22c22f17da7b6bce" alt="Destroy All Humans 2! Reprobed">
       <div class="buttons">
@@ -11021,7 +11025,7 @@ In <i>Twin Mirror</i>, every decision you make alters the course of your investi
         <a href="https://store.steampowered.com/app/1266700" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="snowtopia: ski resort builder">
       <h3>Snowtopia: Ski Resort Builder</h3>
       <img src="https://hb.imgix.net/db954db8168417adf93c47b834c77a2f0dcbd671.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b9b85a86ec8568cd2fccc1651b92fd5c" alt="Snowtopia: Ski Resort Builder">
       <div class="buttons">
@@ -11104,7 +11108,7 @@ Welcome to Snowtopia, the game where it’s good to just chill.
         <a href="https://store.steampowered.com/app/1124260" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="oaken">
       <h3>Oaken</h3>
       <img src="https://hb.imgix.net/273019c02d90dd8f6632903b5b391587b9df9ee8.png?auto=compress,format&fit=clip&h=383&w=667&s=b2c9c6d143737e0199345afc1747a8b5" alt="Oaken">
       <div class="buttons">
@@ -11158,7 +11162,7 @@ The world of <i>Oaken</i> is a mythical place, existing in a not easily defined 
         <a href="https://store.steampowered.com/app/1348690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="life is strange: true colors">
       <h3>Life is Strange: True Colors</h3>
       <img src="https://hb.imgix.net/d663cc3f76cd95c41b83c88de820efcef97e6a42.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac54a5d320d33fd6b5b73ce15289c946" alt="Life is Strange: True Colors">
       <div class="buttons">
@@ -11178,7 +11182,7 @@ The world of <i>Oaken</i> is a mythical place, existing in a not easily defined 
         <a href="https://store.steampowered.com/app/936790" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="scorn">
       <h3>Scorn</h3>
       <img src="https://hb.imgix.net/4fe807f243f88697fb0769f635b51af84cacd3dc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d0c1c65d9a7dfd6d6e2c8edb38be15bb" alt="Scorn">
       <div class="buttons">
@@ -11242,7 +11246,7 @@ Your loadout is defined and limited. This plays a big role in keeping the player
         <a href="https://store.steampowered.com/app/698670" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="there is no light: enhanced edition">
       <h3>There is No Light: Enhanced Edition</h3>
       <img src="https://hb.imgix.net/4fc2f0d917cae022981bd8654ccc000432bb897e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9feefa1a7f01670f102a5b786185f14e" alt="There is No Light: Enhanced Edition">
       <div class="buttons">
@@ -11267,7 +11271,7 @@ Your loadout is defined and limited. This plays a big role in keeping the player
 <section>
   <h2>march-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="soulstice">
       <h3>Soulstice</h3>
       <img src="https://hb.imgix.net/fa44c7329ce9a641f042b1000a2ff5289f40e6b1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6dcf46618d282938d26c1d2f3d9e52c3" alt="Soulstice">
       <div class="buttons">
@@ -11338,7 +11342,7 @@ Explore a dark world brimming with hidden mysteries, master a diverse combat sys
         <a href="https://store.steampowered.com/app/1602080" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="black skylands">
       <h3>Black Skylands</h3>
       <img src="https://hb.imgix.net/2cca09865e26ad495c1142ce3c4741ee9cc6b4bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=804156303124b65b629075ccd8342aca" alt="Black Skylands">
       <div class="buttons">
@@ -11441,7 +11445,7 @@ From the depths of the unknown sky, a formidable threat looms. Follow Eva's jour
         <a href="https://store.steampowered.com/app/1143810" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="nioh 2 - the complete edition">
       <h3>Nioh 2 - The Complete Edition</h3>
       <img src="https://hb.imgix.net/9880c8139c91c85797081ef3866b1bc5fcf41432.jpg?auto=compress,format&fit=clip&h=383&w=667&s=104323501487f1e4b7d3b0a90efdaaa4" alt="Nioh 2 - The Complete Edition">
       <div class="buttons">
@@ -11522,7 +11526,7 @@ Access the Shrine menu and select the Boons tab in order to obtain the bonus.
         <a href="https://store.steampowered.com/app/1325200" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="citizen sleeper">
       <h3>Citizen Sleeper</h3>
       <img src="https://hb.imgix.net/6a199bf255acc04480ee0f20423a406892c191a7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=40e92a1ee1321c2c576aa10193ee9bc5" alt="Citizen Sleeper">
       <div class="buttons">
@@ -11554,7 +11558,7 @@ Access the Shrine menu and select the Boons tab in order to obtain the bonus.
         <a href="https://store.steampowered.com/app/1578650" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="afterimage">
       <h3>Afterimage</h3>
       <img src="https://hb.imgix.net/24b7e8ceadc10a98470448e4f62d884fe004281a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f9e446f8934eb9e84f89460b220f5180" alt="Afterimage">
       <div class="buttons">
@@ -11653,7 +11657,7 @@ Harness and channel the power of defeated enemies to unlock powerful skills and 
         <a href="https://store.steampowered.com/app/1701520" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="destroyer: the u-boat hunter">
       <h3>Destroyer: The U-Boat Hunter</h3>
       <img src="https://hb.imgix.net/c51030cd53295febb54ec1b97abcc8cf75c86d6b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9b7b84fe40f538c95a397f17a5c6f70d" alt="Destroyer: The U-Boat Hunter">
       <div class="buttons">
@@ -11675,7 +11679,7 @@ Harness and channel the power of defeated enemies to unlock powerful skills and 
         <a href="https://store.steampowered.com/app/1272010" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="saints row">
       <h3>Saints Row</h3>
       <img src="https://hb.imgix.net/b4436a49047597b345473c442c64bf16ad8d4664.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c61f0c68b6865a37f151524b73a8bc8e" alt="Saints Row">
       <div class="buttons">
@@ -11683,7 +11687,7 @@ Harness and channel the power of defeated enemies to unlock powerful skills and 
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="warhammer age of sigmar: realms of ruin – ultimate edition">
       <h3>Warhammer Age of Sigmar: Realms of Ruin – Ultimate Edition</h3>
       <img src="https://hb.imgix.net/3e67fa32981fdd3b3936bb9e177ea7651d450b8a.png?auto=compress,format&fit=clip&h=383&w=667&s=3dd91aa108474a0f7f84c7a5089dd764" alt="Warhammer Age of Sigmar: Realms of Ruin – Ultimate Edition">
       <div class="buttons">
@@ -11783,7 +11787,7 @@ Create spellbinding scenes to share with the community with the
 <section>
   <h2>april-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="terraformers">
       <h3>Terraformers</h3>
       <img src="https://hb.imgix.net/b114c1fdcb4ea82d1e5f72f6778568ab1fab7e21.jpg?auto=compress,format&fit=clip&h=383&w=667&s=085f6a2b91af3e61d0e127abf444cb28" alt="Terraformers">
       <div class="buttons">
@@ -11865,7 +11869,7 @@ Create spellbinding scenes to share with the community with the
         <a href="https://store.steampowered.com/app/1244800" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="coromon">
       <h3>Coromon</h3>
       <img src="https://hb.imgix.net/a31d130e19091624a56f816d1ceb8c6dbe0c3b07.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9afe60440dcaa4c566f076cec8d4f981" alt="Coromon">
       <div class="buttons">
@@ -11898,7 +11902,7 @@ Create spellbinding scenes to share with the community with the
         <a href="https://store.steampowered.com/app/1218210" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="fashion police squad">
       <h3>Fashion Police Squad</h3>
       <img src="https://hb.imgix.net/b79f6a65239e58ee9e39b3ba210c5bca0e94586b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7a423d4626e23e41ecf6b7f6ef98aaa9" alt="Fashion Police Squad">
       <div class="buttons">
@@ -11961,7 +11965,7 @@ Each fashion crime has a fashion solution, and you'll need to choose between you
         <a href="https://store.steampowered.com/app/1319460" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="humankind definitive edition">
       <h3>HUMANKIND Definitive Edition</h3>
       <img src="https://hb.imgix.net/0d0acfe04a8729839e3d74c4af42101e7e792f2a.png?auto=compress,format&fit=clip&h=383&w=667&s=ba39492a10421cb0b518d177175a21c4" alt="HUMANKIND Definitive Edition">
       <div class="buttons">
@@ -11985,7 +11989,7 @@ Each fashion crime has a fashion solution, and you'll need to choose between you
         <a href="https://store.steampowered.com/app/1124300" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the callisto protocol">
       <h3>The Callisto Protocol</h3>
       <img src="https://hb.imgix.net/1ab691e4dd58a2a3529d2920067dce2df9b3ad31.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b4561d2ad7f0c59ed2ec86cf77a307f7" alt="The Callisto Protocol">
       <div class="buttons">
@@ -12022,7 +12026,7 @@ One of the most hostile, isolated environments in the universe, Callisto looms l
         <a href="https://store.steampowered.com/app/1544020" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="victoria 3">
       <h3>Victoria 3</h3>
       <img src="https://hb.imgix.net/7e3b550a4d5ab1e3f57340ee4db2b8e37145a98c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=36cb3d8402ee574de9b183348801e854" alt="Victoria 3">
       <div class="buttons">
@@ -12050,7 +12054,7 @@ One of the most hostile, isolated environments in the universe, Callisto looms l
         <a href="https://store.steampowered.com/app/529340" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="symphony of war: the nephilim saga">
       <h3>Symphony of War: The Nephilim Saga</h3>
       <img src="https://hb.imgix.net/04bec58945767066771eafba1fa273d62793a444.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02357f798b276c32b19d2fd2d30a3d6c" alt="Symphony of War: The Nephilim Saga">
       <div class="buttons">
@@ -12095,7 +12099,7 @@ One of the most hostile, isolated environments in the universe, Callisto looms l
         <a href="https://store.steampowered.com/app/1488200" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the excavation of hob's barrow">
       <h3>The Excavation of Hob's Barrow</h3>
       <img src="https://hb.imgix.net/5c9cf911cf9466ed683b0e8368b3fd815d102ab5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d314189ecf6891ea0445f7444fef911" alt="The Excavation of Hob's Barrow">
       <div class="buttons">
@@ -12213,7 +12217,7 @@ Upon her arrival, however, the mysterious man who summoned her is nowhere to be 
 <section>
   <h2>may-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="loddlenaut">
       <h3>Loddlenaut</h3>
       <img src="https://hb.imgix.net/f98781ebe979a298533e191ad8080f21a019ca33.jpg?auto=compress,format&fit=clip&h=383&w=667&s=374845315d1cc0d82909fb0e1d67b030" alt="Loddlenaut">
       <div class="buttons">
@@ -12290,7 +12294,7 @@ When the loddles are strong enough and the waters are cleaner, release them back
         <a href="https://store.steampowered.com/app/1839880" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="bravery and greed">
       <h3>Bravery and Greed</h3>
       <img src="https://hb.imgix.net/3d0a083e2fbdc622949108fb983fa2ab048e5ffc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ee5737b52836183ff6bc9184da5bd16a" alt="Bravery and Greed">
       <div class="buttons">
@@ -12306,7 +12310,7 @@ When the loddles are strong enough and the waters are cleaner, release them back
         <a href="https://store.steampowered.com/app/943370" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="amanda the adventurer">
       <h3>Amanda the Adventurer</h3>
       <img src="https://hb.imgix.net/9f1bba4c25570b30f81a0cc8a8d697620679f881.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7ea6e09216e79c6735dad9ca4bc0d423" alt="Amanda the Adventurer">
       <div class="buttons">
@@ -12374,7 +12378,7 @@ When the loddles are strong enough and the waters are cleaner, release them back
         <a href="https://store.steampowered.com/app/2166060" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="king of the castle">
       <h3>King Of The Castle</h3>
       <img src="https://hb.imgix.net/60f3dd3229f79c653917d9b68b0697316cdec35b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=999b1493e069bd03bce25f5ff7c77b71" alt="King Of The Castle">
       <div class="buttons">
@@ -12430,7 +12434,7 @@ When the loddles are strong enough and the waters are cleaner, release them back
         <a href="https://store.steampowered.com/app/1839880" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="mediterranea inferno">
       <h3>Mediterranea Inferno</h3>
       <img src="https://hb.imgix.net/669375b698f805d17685032344035fdc5e657d67.jpg?auto=compress,format&fit=clip&h=383&w=667&s=963c00d19665b77f94bd4f4cab6705a3" alt="Mediterranea Inferno">
       <div class="buttons">
@@ -12516,7 +12520,7 @@ A playthrough lasts 3 to 4 hours, reaching one of many possible endings and show
         <a href="https://store.steampowered.com/app/2103680" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hi-fi rush">
       <h3>Hi-Fi Rush</h3>
       <img src="https://hb.imgix.net/0c40227c35ce7bc2c0d9a27022a0681efde2127d.png?auto=compress,format&fit=clip&h=383&w=667&s=87335a9f5fb749b4b5e43be365f980f1" alt="Hi-Fi Rush">
       <div class="buttons">
@@ -12561,7 +12565,7 @@ The Arcade Challenge! Update!  also contains additional content for players to e
         <a href="https://store.steampowered.com/app/1817230" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="yakuza: like a dragon">
       <h3>Yakuza: Like a Dragon</h3>
       <img src="https://hb.imgix.net/65fdef0507cc058480412b283b69eeac3c691cf8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d1348e21988c0ff965c92173c021356" alt="Yakuza: Like a Dragon">
       <div class="buttons">
@@ -12569,7 +12573,7 @@ The Arcade Challenge! Update!  also contains additional content for players to e
         <a href="https://store.steampowered.com/app/1235140" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="steelrising">
       <h3>Steelrising</h3>
       <img src="https://hb.imgix.net/3e2fd06711e2d47feda78d28c222cb4e46e16cf2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2d06f051dbfe39621dd06e70d4670253" alt="Steelrising">
       <div class="buttons">
@@ -12627,7 +12631,7 @@ You are one of the main characters of an alternative history where Paris is bein
 <section>
   <h2>june-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="lego® 2k drive awesome edition">
       <h3>LEGO® 2K Drive Awesome Edition</h3>
       <img src="https://hb.imgix.net/cbeacfbdb90d33a3bd4bf31985b2c299ffd27a6c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a68b4e1a3bc744e32d1b5a628a5bde25" alt="LEGO® 2K Drive Awesome Edition">
       <div class="buttons">
@@ -12636,7 +12640,7 @@ You are one of the main characters of an alternative history where Paris is bein
         <a href="https://store.steampowered.com/app/1451810" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="risk of rain 2">
       <h3>Risk of Rain 2</h3>
       <img src="https://hb.imgix.net/36a382fc1e37a7f28cae5ccd40f175252bd46b38.png?auto=compress,format&fit=clip&h=383&w=667&s=a76c1aa54e06881e121e62668d01f87e" alt="Risk of Rain 2">
       <div class="buttons">
@@ -12663,7 +12667,7 @@ You are one of the main characters of an alternative history where Paris is bein
         <a href="https://store.steampowered.com/app/632360" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="warhammer 40,000: battlesector">
       <h3>Warhammer 40,000: Battlesector</h3>
       <img src="https://hb.imgix.net/09cd7b77b9c57035bbe7987ec2da5fe7b533da49.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ed7ff8ed16f36d69fc614530ae68a7a4" alt="Warhammer 40,000: Battlesector">
       <div class="buttons">
@@ -12714,7 +12718,7 @@ With live and asynchronous multiplayer, and hotseat modes available, there’s n
         <a href="https://store.steampowered.com/app/1295500" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="empyrion - galactic survival">
       <h3>Empyrion - Galactic Survival</h3>
       <img src="https://hb.imgix.net/1077c4e45e842194c8e94539d5742330c9d82d7d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4d98c60960cf51af8072e1b0aac78c09" alt="Empyrion - Galactic Survival">
       <div class="buttons">
@@ -12768,7 +12772,7 @@ Forget food, resources, and enemies and just build. Create wonders with absolute
         <a href="https://store.steampowered.com/app/383120" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="a guidebook of babel">
       <h3>A Guidebook of Babel</h3>
       <img src="https://hb.imgix.net/4010a1840e75f6db38e2f9e0708e2fdd9fe7d984.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6daa25899c15440d7f1c7bcdbed884ed" alt="A Guidebook of Babel">
       <div class="buttons">
@@ -12832,7 +12836,7 @@ Combining cute and funny, retro and cartoon, Babel is about to set sail. Grab yo
         <a href="https://store.steampowered.com/app/1467920" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="knights of honor ii: sovereign">
       <h3>Knights of Honor II: Sovereign</h3>
       <img src="https://hb.imgix.net/1a8a03917b121c67410c9c2b2fb38889761c5400.jpg?auto=compress,format&fit=clip&h=383&w=667&s=18bc93e445ca43e3577cdda75e990db1" alt="Knights of Honor II: Sovereign">
       <div class="buttons">
@@ -12978,7 +12982,7 @@ You or your friends want a fresh new challenge from the normal game experience? 
         <a href="https://store.steampowered.com/app/736820" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="miasma chronicles">
       <h3>Miasma Chronicles</h3>
       <img src="https://hb.imgix.net/5838c998567961cda93994a3af81d0cc2408224f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=329733121fced4c429c0012c83004125" alt="Miasma Chronicles">
       <div class="buttons">
@@ -13041,7 +13045,7 @@ From the creators of Mutant Year Zero: Road to Eden, comes a beautifully crafted
         <a href="https://store.steampowered.com/app/1649010" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="stray gods: the roleplaying musical">
       <h3>Stray Gods: The Roleplaying Musical</h3>
       <img src="https://hb.imgix.net/c3159bceb2e1e7706b42312914e5dc0e0f3c9596.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0db4ecf5889dc7ad7089b1b978e0819d" alt="Stray Gods: The Roleplaying Musical">
       <div class="buttons">
@@ -13060,7 +13064,7 @@ From the creators of Mutant Year Zero: Road to Eden, comes a beautifully crafted
 <section>
   <h2>july-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="sticky business">
       <h3>Sticky Business</h3>
       <img src="https://hb.imgix.net/c0c01e7e8333fb04ea77b3eb6608ce3d93176c4d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9df1db4b42fef1afba20f8d1237a8136" alt="Sticky Business">
       <div class="buttons">
@@ -13082,7 +13086,7 @@ From the creators of Mutant Year Zero: Road to Eden, comes a beautifully crafted
         <a href="https://store.steampowered.com/app/2303350" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="a plague tale: requiem">
       <h3>A Plague Tale: Requiem</h3>
       <img src="https://hb.imgix.net/bdde7926713204647f8c913d88779fb892d1c99f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cdd3630971267a2547e9559b4fa129ad" alt="A Plague Tale: Requiem">
       <div class="buttons">
@@ -13114,7 +13118,7 @@ Discover the cost of saving those you love in a desperate struggle for survival.
         <a href="https://store.steampowered.com/app/1182900" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="starship troopers: terran command">
       <h3>Starship Troopers: Terran Command</h3>
       <img src="https://hb.imgix.net/a2ad18703db2ca5b483d4c377d025db0092d13cf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d4e156c89e8417715aea0aa03d676477" alt="Starship Troopers: Terran Command">
       <div class="buttons">
@@ -13162,7 +13166,7 @@ To eradicate the Bug problem for good, their nests must be eradicated!
         <a href="https://store.steampowered.com/app/1202130" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="ghostrunner 2">
       <h3>Ghostrunner 2</h3>
       <img src="https://hb.imgix.net/e318a9ab7ba10d3b021ead299ef011072e89328d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=63db35e17b9c644ef1753b326f6797c4" alt="Ghostrunner 2">
       <div class="buttons">
@@ -13215,7 +13219,7 @@ Save humanity in style as you decimate your opponents while listening to the cap
         <a href="https://store.steampowered.com/app/2144740" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="figment 2: creed valley">
       <h3>Figment 2: Creed Valley</h3>
       <img src="https://hb.imgix.net/babdb26bb098ff87b251a30347ce4d8c7fa445a4.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9e5137c761a295640a52702341e9e20" alt="Figment 2: Creed Valley">
       <div class="buttons">
@@ -13237,7 +13241,7 @@ Save humanity in style as you decimate your opponents while listening to the cap
         <a href="https://store.steampowered.com/app/1085220" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="heretic's fork">
       <h3>Heretic's Fork</h3>
       <img src="https://hb.imgix.net/a5b2c2ea7725c969597af3d98fe7c90225a22c58.jpg?auto=compress,format&fit=clip&h=383&w=667&s=53e3a4f10f34d2caca7c923cd149bf77" alt="Heretic's Fork">
       <div class="buttons">
@@ -13251,7 +13255,7 @@ Save humanity in style as you decimate your opponents while listening to the cap
         <a href="https://store.steampowered.com/app/2181610" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dc universe infinite 1-month free trial">
       <h3>DC Universe Infinite 1-Month Free Trial</h3>
       <img src="https://hb.imgix.net/881242ab73e050828e6b510329f4626c1ff4cf8c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eb964ef50eced08a5c9d55436b8ef37e" alt="DC Universe Infinite 1-Month Free Trial">
       <div class="buttons">
@@ -13260,7 +13264,7 @@ Save humanity in style as you decimate your opponents while listening to the cap
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="zoeti">
       <h3>Zoeti</h3>
       <img src="https://hb.imgix.net/a41d4feb5ae45308f699eb21f224e238b02c1724.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e90d6bd05a483c38d0de1521f1e2ddca" alt="Zoeti">
       <div class="buttons">
@@ -13288,7 +13292,7 @@ You'll need to crack open the enemy's defenses, bolster your grit and resolve, a
         <a href="https://store.steampowered.com/app/1434540" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hyperviolent">
       <h3>HYPERVIOLENT</h3>
       <img src="https://hb.imgix.net/9985fa197635d390996e1f92935e48c4461c8674.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9982eae9b45a8045b1071f8f30b60004" alt="HYPERVIOLENT">
       <div class="buttons">
@@ -13365,7 +13369,7 @@ Obliterate your foes with an extensive array of guns and melee weapons that can 
 <section>
   <h2>august-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="astral ascent">
       <h3>Astral Ascent</h3>
       <img src="https://hb.imgix.net/c2cf228a126b70e844769ff67bd901ac55d49617.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2b541b1f606fe547c8816183648362c8" alt="Astral Ascent">
       <div class="buttons">
@@ -13482,7 +13486,7 @@ Dash across gigantic landscapes. Explore original and hand-crafted areas. Discov
         <a href="https://store.steampowered.com/app/1280930" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="diluvian ultra">
       <h3>Diluvian Ultra</h3>
       <img src="https://hb.imgix.net/2aa5e1f0a6beb207e9d945d9a565ecb0206c145c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f4d5ace6821ad7fd461fcfaa3b151e7f" alt="Diluvian Ultra">
       <div class="buttons">
@@ -13490,7 +13494,7 @@ Dash across gigantic landscapes. Explore original and hand-crafted areas. Discov
         <a href="https://store.steampowered.com/app/1306970" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dc universe infinite 1-month free trial">
       <h3>DC Universe Infinite 1-Month Free Trial</h3>
       <img src="https://hb.imgix.net/881242ab73e050828e6b510329f4626c1ff4cf8c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=eb964ef50eced08a5c9d55436b8ef37e" alt="DC Universe Infinite 1-Month Free Trial">
       <div class="buttons">
@@ -13499,7 +13503,7 @@ Dash across gigantic landscapes. Explore original and hand-crafted areas. Discov
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="this means warp">
       <h3>This Means Warp</h3>
       <img src="https://hb.imgix.net/4035ad11d646bf9f388fa8f4af572528caae3182.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02b394ded1422a26575f807d083ff512" alt="This Means Warp">
       <div class="buttons">
@@ -13565,7 +13569,7 @@ She can’t take much more, captain! You’ll be master of your ship in no time,
         <a href="https://store.steampowered.com/app/1269300" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="sifu">
       <h3>Sifu</h3>
       <img src="https://hb.imgix.net/dc5a1a1954480a15e3194b022c4ae9c227481f02.jpg?auto=compress,format&fit=clip&h=383&w=667&s=91cff8e176842b95af097843e3594cae" alt="Sifu">
       <div class="buttons">
@@ -13603,7 +13607,7 @@ Kung Fu is mastery through practice, a path for both the body and the mind. Lear
         <a href="https://store.steampowered.com/app/2138710" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="universe for sale">
       <h3>Universe For Sale</h3>
       <img src="https://hb.imgix.net/2ea43034e79345d808fa520c53900093913fbd0a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a9486b79bb3d875f7408336a26267285" alt="Universe For Sale">
       <div class="buttons">
@@ -13614,7 +13618,7 @@ Kung Fu is mastery through practice, a path for both the body and the mind. Lear
         <a href="https://store.steampowered.com/app/1627840" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="blacktail">
       <h3>BLACKTAIL</h3>
       <img src="https://hb.imgix.net/403fe01d3398f3c9dfc6c6ce2d467ade3315a885.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cfd042446b9ecc7190145b054db658b7" alt="BLACKTAIL">
       <div class="buttons">
@@ -13648,7 +13652,7 @@ You play as Yaga, a 16-year-old girl accused of witchcraft and expelled from a m
         <a href="https://store.steampowered.com/app/1532690" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="high on life">
       <h3>High On Life</h3>
       <img src="https://hb.imgix.net/db551c7624c88379faa0b19532c0739b0f14c5cd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=41a98633849306aa6833708939923b29" alt="High On Life">
       <div class="buttons">
@@ -13810,7 +13814,7 @@ Travel to a variety of biomes and locations across the cosmos, go up against the
         <a href="https://store.steampowered.com/app/482400" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="gotham knights">
       <h3>Gotham Knights</h3>
       <img src="https://hb.imgix.net/34ff77a7e4790ff04aa9bec21d73d463b13ad956.jpg?auto=compress,format&fit=clip&h=383&w=667&s=56fd48018a7dc19b687c2a9c1a4c9b6f" alt="Gotham Knights">
       <div class="buttons">
@@ -13832,7 +13836,7 @@ Your legacy begins now. Step into the Knight.
 <section>
   <h2>september-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="infraspace">
       <h3>InfraSpace</h3>
       <img src="https://hb.imgix.net/2d97bd67cda65fa32edab0b9e9867cd5be0a11e1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=30876c3a859c604b6aae906e19c7e06b" alt="InfraSpace">
       <div class="buttons">
@@ -13915,7 +13919,7 @@ Traffic management can be fickle and survival can be tough. You can adjust the d
         <a href="https://store.steampowered.com/app/1511460" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="stranded: alien dawn">
       <h3>Stranded: Alien Dawn</h3>
       <img src="https://hb.imgix.net/5f7d387856d7aefeef2626a8a40a8b3e09f75c22.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4599567bdfdc2b63991fce42112d86c5" alt="Stranded: Alien Dawn">
       <div class="buttons">
@@ -13992,7 +13996,7 @@ Design and build your base on an alien world and transform it from simple shelte
         <a href="https://store.steampowered.com/app/1324130" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="coral island">
       <h3>Coral Island</h3>
       <img src="https://hb.imgix.net/c8bf240d4abdbc7eb3de6c4eceba77f4dde65efa.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6fece46663baf2392166a9d11f6de20b" alt="Coral Island">
       <div class="buttons">
@@ -14086,7 +14090,7 @@ Go diving to restore the coral reef, or mine precious gemstones in the cavern. W
         <a href="https://store.steampowered.com/app/1158160" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="rue valley - alpha playtest">
       <h3>Rue Valley - Alpha Playtest</h3>
       <img src="https://hb.imgix.net/69a7d3046fa4c62193bfe40a49cb3b9ce2596f7b.png?auto=compress,format&fit=clip&h=383&w=667&s=571e05e1520d7fb04f45e56be034d1a5" alt="Rue Valley - Alpha Playtest">
       <div class="buttons">
@@ -14101,7 +14105,7 @@ Go diving to restore the coral reef, or mine precious gemstones in the cavern. W
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="marvel's guardians of the galaxy">
       <h3>Marvel's Guardians of the Galaxy</h3>
       <img src="https://hb.imgix.net/f24310af654f99847c2bb0cfe0020fef1603d348.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5c9134e9f3fad964d37937dc86c9ed43" alt="Marvel's Guardians of the Galaxy">
       <div class="buttons">
@@ -14109,7 +14113,7 @@ Go diving to restore the coral reef, or mine precious gemstones in the cavern. W
         <a href="https://store.steampowered.com/app/1088850" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="lost eidolons">
       <h3>Lost Eidolons</h3>
       <img src="https://hb.imgix.net/8ac73f4372888428a01ec3d5ae85075c0b376e97.jpg?auto=compress,format&fit=clip&h=383&w=667&s=198bdfe40cc70d0e2b589158ec57681a" alt="Lost Eidolons">
       <div class="buttons">
@@ -14161,7 +14165,7 @@ Win the war all over again, with a rich NEW GAME+ mode. Carry over your choice o
         <a href="https://store.steampowered.com/app/1580520" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="you suck at parking - complete edition">
       <h3>You Suck at Parking - Complete Edition</h3>
       <img src="https://hb.imgix.net/b8421d7bbe89dcfff113c435a15affc388500614.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ac03404e59bd2afd71a0dbc966337a60" alt="You Suck at Parking - Complete Edition">
       <div class="buttons">
@@ -14177,7 +14181,7 @@ Win the war all over again, with a rich NEW GAME+ mode. Carry over your choice o
         <a href="https://store.steampowered.com/app/837880" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="astrea: six-sided oracles">
       <h3>Astrea: Six-Sided Oracles</h3>
       <img src="https://hb.imgix.net/ed4ebe5853ada8e777bef3c89754c7779a20cc6d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=cc9e9206a830fcc44a4fcdd611447c55" alt="Astrea: Six-Sided Oracles">
       <div class="buttons">
@@ -14195,7 +14199,7 @@ Win the war all over again, with a rich NEW GAME+ mode. Carry over your choice o
         <a href="https://store.steampowered.com/app/1755830" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="spongebob squarepants: the cosmic shake">
       <h3>SpongeBob SquarePants: The Cosmic Shake</h3>
       <img src="https://hb.imgix.net/a99ae01918e914d5627a2c026efae75d498fba91.jpg?auto=compress,format&fit=clip&h=383&w=667&s=462141bbd0809e9e191f5e9a95350e3b" alt="SpongeBob SquarePants: The Cosmic Shake">
       <div class="buttons">
@@ -14217,7 +14221,7 @@ Win the war all over again, with a rich NEW GAME+ mode. Carry over your choice o
 <section>
   <h2>october-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="station to station">
       <h3>Station to Station</h3>
       <img src="https://hb.imgix.net/6bfd12101ab2e7aba0b1e66f4bd2083bab28d95f.png?auto=compress,format&fit=clip&h=383&w=667&s=135799c56b2a31dabc7bbc0ed1d832a7" alt="Station to Station">
       <div class="buttons">
@@ -14239,7 +14243,7 @@ Win the war all over again, with a rich NEW GAME+ mode. Carry over your choice o
         <a href="https://store.steampowered.com/app/2272400" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="remnant ii®">
       <h3>REMNANT II®</h3>
       <img src="https://hb.imgix.net/c9c00a83eea1f4c88a9ccc364a5d68ddd2ec1138.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a0a5baa12968a6609e25b73046d9fef3" alt="REMNANT II®">
       <div class="buttons">
@@ -14300,7 +14304,7 @@ Expanded Archetype system provides players with unique passive bonuses and stunn
         <a href="https://store.steampowered.com/app/1282100" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="mcpixel 3">
       <h3>McPixel 3</h3>
       <img src="https://hb.imgix.net/c4db705ca2125ecfeb4e86074477b8bbd4bfad55.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1a230179b181dca1588f6625e9a20b65" alt="McPixel 3">
       <div class="buttons">
@@ -14342,7 +14346,7 @@ Expanded Archetype system provides players with unique passive bonuses and stunn
         <a href="https://store.steampowered.com/app/1338580" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="remnant records">
       <h3>Remnant Records</h3>
       <img src="https://hb.imgix.net/8d00a6a936a59b18fafc938de7e03c0aba30f985.png?auto=compress,format&fit=clip&h=383&w=667&s=7f12e6851cae3029d1769700c0f25bef" alt="Remnant Records">
       <div class="buttons">
@@ -14405,7 +14409,7 @@ Features:
         <a href="https://store.steampowered.com/app/1916310" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="jusant">
       <h3>Jusant</h3>
       <img src="https://hb.imgix.net/2f1bbaa4777ef89e5fd87d4b823598636827f71a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c2ae67e346986e0cb211931c832336d9" alt="Jusant">
       <div class="buttons">
@@ -14446,7 +14450,7 @@ Meet the mysterious Ballast. This creature will help guide you throughout your j
         <a href="https://store.steampowered.com/app/1977170" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="jack move">
       <h3>Jack Move</h3>
       <img src="https://hb.imgix.net/5572fb1302e67703d418f796237d732f7a436ba0.png?auto=compress,format&fit=clip&h=383&w=667&s=6051b41ae90ccd0c4ec2b85ea71a4c24" alt="Jack Move">
       <div class="buttons">
@@ -14462,7 +14466,7 @@ Meet the mysterious Ballast. This creature will help guide you throughout your j
         <a href="https://store.steampowered.com/app/1099640" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="persona 5 strikers">
       <h3>Persona 5 Strikers</h3>
       <img src="https://hb.imgix.net/9e5f720bb8ee35799c446c35a5cb432f055fe254.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5463ed365258c1304a1caf43ae55fdb8" alt="Persona 5 Strikers">
       <div class="buttons">
@@ -14526,7 +14530,7 @@ This game may be updated over time and have paid for and free additional content
         <a href="https://store.steampowered.com/app/1382330" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dome keeper">
       <h3>Dome Keeper</h3>
       <img src="https://hb.imgix.net/348066cbb675900695d9e902bae1bb48893071a2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=84e49750a54cc2873f508702bed4fbc9" alt="Dome Keeper">
       <div class="buttons">
@@ -14578,7 +14582,7 @@ Utilize your mineral harvest to unlock powerful upgrades: augment your weapons, 
 <section>
   <h2>november-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="lamplighters league ">
       <h3>Lamplighters League </h3>
       <img src="https://hb.imgix.net/f4ebdd41c7d9ed5eea61158d89d86e3101e93d52.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6267abbb6db52ad259d73e0f0a68297a" alt="Lamplighters League ">
       <div class="buttons">
@@ -14604,7 +14608,7 @@ Can you prevent the Banished Court from reshaping the world to their twisted wil
         <a href="https://store.steampowered.com/app/1167750" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="persona 4 golden">
       <h3>Persona 4 Golden</h3>
       <img src="https://hb.imgix.net/e70730644c3f5e0532517f568a05b9e27de6d007.png?auto=compress,format&fit=clip&h=383&w=667&s=59cf39a52afd05b1a31fde95266dd42e" alt="Persona 4 Golden">
       <div class="buttons">
@@ -14625,7 +14629,7 @@ Can you prevent the Banished Court from reshaping the world to their twisted wil
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the bookwalker: thief of tales">
       <h3>The Bookwalker: Thief of Tales</h3>
       <img src="https://hb.imgix.net/7287aed48aabf291355297dc1c0615058d08ce84.jpg?auto=compress,format&fit=clip&h=383&w=667&s=939d7527f9566a22d7201aa86954cbf7" alt="The Bookwalker: Thief of Tales">
       <div class="buttons">
@@ -14674,7 +14678,7 @@ Test your ingenuity with unique puzzles that encourage thinking outside the box,
         <a href="https://store.steampowered.com/app/891004" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="garden life">
       <h3>Garden Life</h3>
       <img src="https://hb.imgix.net/3a808674141f3730fec3d5c88667ec4a640e84bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=059f004433a48b37752879185d74501c" alt="Garden Life">
       <div class="buttons">
@@ -14802,7 +14806,7 @@ Add Garden Life to your wishlist, follow us, and join our discord community so y
         <a href="https://store.steampowered.com/app/1915380" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="hexarchy">
       <h3>Hexarchy</h3>
       <img src="https://hb.imgix.net/d4ac577c2cdc86dbba42bdb8315a70d79eb47eeb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c708a0428b75dd91267d87da365098e4" alt="Hexarchy">
       <div class="buttons">
@@ -14884,7 +14888,7 @@ Build a deck to your own style, playing cards from your hand to perform actions 
         <a href="https://store.steampowered.com/app/923068" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="karmazoo">
       <h3>KarmaZoo</h3>
       <img src="https://hb.imgix.net/42c652f57e017bcd7f25b02a29c40cd0992e0dba.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8dbb54e17dc0900176c8ef1f5c31c89" alt="KarmaZoo">
       <div class="buttons">
@@ -14945,7 +14949,7 @@ Anyone can help their team earn Karma! Whether you’re new to games or a season
         <a href="https://store.steampowered.com/app/590567" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="cassette beasts">
       <h3>Cassette Beasts</h3>
       <img src="https://hb.imgix.net/d5b864b0006d29e7b6d4105d07d3e8e8f837251e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=5d3487e1328746018b791d612e354ba9" alt="Cassette Beasts">
       <div class="buttons">
@@ -14965,7 +14969,7 @@ Anyone can help their team earn Karma! Whether you’re new to games or a season
         <a href="https://store.steampowered.com/app/1432100" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="warhammer 40,000 darktide">
       <h3>Warhammer 40,000 Darktide</h3>
       <img src="https://hb.imgix.net/3759667018c8f6205fb77ff91f43b312bc07891b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=10ef24215ca6e8cb3ea84a57242d608b" alt="Warhammer 40,000 Darktide">
       <div class="buttons">
@@ -14978,7 +14982,7 @@ Anyone can help their team earn Karma! Whether you’re new to games or a season
 <section>
   <h2>december-2024</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="boot.dev 1 month subscription">
       <h3>Boot.dev 1 Month Subscription</h3>
       <img src="https://hb.imgix.net/2be6eeb205d8b93f051869b4fa0bda0bff5d1015.png?auto=compress,format&fit=clip&h=383&w=667&s=1fdb02136441c4ea3933d2a016d6ef5e" alt="Boot.dev 1 Month Subscription">
       <div class="buttons">
@@ -14986,7 +14990,7 @@ Anyone can help their team earn Karma! Whether you’re new to games or a season
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the invincible ">
       <h3>The Invincible </h3>
       <img src="https://hb.imgix.net/f9055891d90a372fb8ee64fe3496a9ec2f5d41a2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ada0d65ead3a66fcd452d455b49d7b04" alt="The Invincible ">
       <div class="buttons">
@@ -15034,7 +15038,7 @@ There are places like Regis III, not prepared for us and for which we are not pr
         <a href="https://store.steampowered.com/app/731040" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="old world">
       <h3>Old World</h3>
       <img src="https://hb.imgix.net/6f7b4500c9d5dfb9819d779b48e6ea298d08336a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=549cd97a4ec31ae82118d5fdda139221" alt="Old World">
       <div class="buttons">
@@ -15166,7 +15170,7 @@ Why do things the way they've always been done? <i>Old World</i> brings a new ta
         <a href="https://store.steampowered.com/app/597180" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="atlas fallen: reign of sand">
       <h3>Atlas Fallen: Reign of Sand</h3>
       <img src="https://hb.imgix.net/7eaf811085387d9e2f178f91611bb9a2692211ef.jpg?auto=compress,format&fit=clip&h=383&w=667&s=9945aa27793ddb2dbfa92917e6e4d3e3" alt="Atlas Fallen: Reign of Sand">
       <div class="buttons">
@@ -15225,7 +15229,7 @@ Unleash the power of your gauntlet, forge your legend with a fluid, dynamic, and
         <a href="https://store.steampowered.com/app/1230530" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="crime boss: rockay city - first month edition">
       <h3>Crime Boss: Rockay City - First Month Edition</h3>
       <img src="https://hb.imgix.net/f250c117ee3cb1b86309109ae995aa686f74321b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b6531d2f8df958d0e5a5de31de1e3750" alt="Crime Boss: Rockay City - First Month Edition">
       <div class="buttons">
@@ -15247,7 +15251,7 @@ Unleash the power of your gauntlet, forge your legend with a fluid, dynamic, and
         <a href="https://store.steampowered.com/app/2933080" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="moonstone island ">
       <h3>Moonstone Island </h3>
       <img src="https://hb.imgix.net/aa46234634e359930ad30d42a834b8d09014a1d6.jpg?auto=compress,format&fit=clip&h=383&w=667&s=6c090c3787c6e4943e0889952ceeeee0" alt="Moonstone Island ">
       <div class="buttons">
@@ -15400,7 +15404,7 @@ Unleash the power of your gauntlet, forge your legend with a fluid, dynamic, and
         <a href="https://store.steampowered.com/app/1658150" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="monster prom 3: monster roadtrip ">
       <h3>Monster Prom 3: Monster Roadtrip </h3>
       <img src="https://hb.imgix.net/08b8380509354b761c6b453adad43848be4f605c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8696cf8fb12f69e843c0d1951c7f952d" alt="Monster Prom 3: Monster Roadtrip ">
       <div class="buttons">
@@ -15447,7 +15451,7 @@ What can you expect from this monstrous road trip?
         <a href="https://store.steampowered.com/app/1665190" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="inkulinati">
       <h3>Inkulinati</h3>
       <img src="https://hb.imgix.net/280357137a5f747291094d2ffe272d4ece5cb009.jpg?auto=compress,format&fit=clip&h=383&w=667&s=543821bedcf055dc4fcb18153951de89" alt="Inkulinati">
       <div class="buttons">
@@ -15554,7 +15558,7 @@ Choose your Army, Talents, Inkulianti Master, the Battlefield, and other criteri
         <a href="https://store.steampowered.com/app/957960" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="bomb rush cyberfunk">
       <h3>Bomb Rush Cyberfunk</h3>
       <img src="https://hb.imgix.net/a40224b4ce2ef7e82d6a5ac4fac38a01c1b00d65.jpg?auto=compress,format&fit=clip&h=383&w=667&s=58e585d85def7a87b957367cadefbc46" alt="Bomb Rush Cyberfunk">
       <div class="buttons">
@@ -15600,7 +15604,7 @@ Red is a graffiti writer who lost his head and instead uses a cyberhead to get a
         <a href="https://store.steampowered.com/app/1353230" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="venba ">
       <h3>Venba </h3>
       <img src="https://hb.imgix.net/0f9a8857338b38b65c3712590924edcc0e2d73fe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f1e7977eefcccef98973009381be9939" alt="Venba ">
       <div class="buttons">
@@ -15666,7 +15670,7 @@ you can't get enough, return to the newly-added in-game radio to listen to the O
 <section>
   <h2>january-2025</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="dordogne">
       <h3>Dordogne</h3>
       <img src="https://hb.imgix.net/9227955bd1d2f88e49d2dcac9bc42ada5bd3c0d0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e4be919fd82bad5ffb6a97ab16afb4b6" alt="Dordogne">
       <div class="buttons">
@@ -15705,7 +15709,7 @@ Explore <i>Dordogne</i> landscapes of a thousand summer colors, within sumptuous
         <a href="https://store.steampowered.com/app/1272840" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="jagged alliance 3">
       <h3>Jagged Alliance 3</h3>
       <img src="https://hb.imgix.net/95ee3ba1adcb1f3f3fdb55d3442e0c8619369ed1.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8f784c88ed5f02325bc0909788aa87b" alt="Jagged Alliance 3">
       <div class="buttons">
@@ -15751,7 +15755,7 @@ In <i>Jagged Alliance 3</i>, select from a huge cast of mercenaries all with the
         <a href="https://store.steampowered.com/app/1084160" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="against the storm">
       <h3>Against the Storm</h3>
       <img src="https://hb.imgix.net/9882ea6071fe9d8b3284c741bcf64bfde8e2de5c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=07d926dc639a3b02b913494599435f9c" alt="Against the Storm">
       <div class="buttons">
@@ -15807,7 +15811,7 @@ Laying the foundations for a new city is one of the most exciting moments in a c
         <a href="https://store.steampowered.com/app/1336490" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="boxes: lost fragments">
       <h3>Boxes: Lost Fragments</h3>
       <img src="https://hb.imgix.net/156e4d145c14e0dc6b4ce40a5b5253b2e3aef985.jpg?auto=compress,format&fit=clip&h=383&w=667&s=778dd02081ba7e42097b1c8e85d6d36b" alt="Boxes: Lost Fragments">
       <div class="buttons">
@@ -15830,7 +15834,7 @@ Inspired by the cryptic atmosphere, intricate machinery, and smooth controls of 
         <a href="https://store.steampowered.com/app/2019810" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="blasphemous 2">
       <h3>Blasphemous 2</h3>
       <img src="https://hb.imgix.net/e7441e6a73a236c83258028272c5fd6aac659fa9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d338d91e2c52fd310bf38405f0b406c" alt="Blasphemous 2">
       <div class="buttons">
@@ -15891,7 +15895,7 @@ A whole new world awaits, bustling with mysterious new NPCs to interact with, so
         <a href="https://store.steampowered.com/app/2114740" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the pegasus expedition">
       <h3>The Pegasus Expedition</h3>
       <img src="https://hb.imgix.net/b62ef17772fd81da4b970ac61a91b35cdad10138.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a0713a10c916053394ee687251b81415" alt="The Pegasus Expedition">
       <div class="buttons">
@@ -16069,7 +16073,7 @@ Your starting situation is not an easy one... And it’s only going to get worse
         <a href="https://store.steampowered.com/app/1521070" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="beneath oresa">
       <h3>Beneath Oresa</h3>
       <img src="https://hb.imgix.net/816a74f5257a63e10ab6f1b05f987f34d74efad5.jpg?auto=compress,format&fit=clip&h=383&w=667&s=2dbb7e446649666836d5a23bdbb7b9e1" alt="Beneath Oresa">
       <div class="buttons">
@@ -16135,7 +16139,7 @@ A powerful bonus but only for the round? Or the same bonus but for the whole fig
         <a href="https://store.steampowered.com/app/1803400" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="fort solis">
       <h3>Fort Solis</h3>
       <img src="https://hb.imgix.net/6dee46b892d55d12ca4c987e996456aea4cd2ca0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=245b1b9b980efe743152d65bb649728a" alt="Fort Solis">
       <div class="buttons">
@@ -16233,7 +16237,7 @@ A powerful bonus but only for the round? Or the same bonus but for the whole fig
 <section>
   <h2>february-2025</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="my little universe">
       <h3>My Little Universe</h3>
       <img src="https://hb.imgix.net/cf3642e87c30bc6238f1d69668d6cf40e8c2379d.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ab5a816eee94cdb2add005a07b935f79" alt="My Little Universe">
       <div class="buttons">
@@ -16316,7 +16320,7 @@ Get entranced by the game’s cozy atmosphere, enjoy the relaxing soundtrack, an
         <a href="https://store.steampowered.com/app/2328750" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="naheulbeuk's dungeon master">
       <h3>Naheulbeuk's Dungeon Master</h3>
       <img src="https://hb.imgix.net/9de06bb5cde681182d44d6220ae394fee1037c17.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4bbc9d1a8dfb33795f252ebc845f300d" alt="Naheulbeuk's Dungeon Master">
       <div class="buttons">
@@ -16458,7 +16462,7 @@ Embody Reivax, the servile (or not) steward of the Dungeon of Naheulbeuk. Years 
         <a href="https://store.steampowered.com/app/2005160" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="griftlands">
       <h3>Griftlands</h3>
       <img src="https://hb.imgix.net/4b0259b31d2016661b7cbdad3dd677e4d9313325.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e6c82755ab6010797665e38726c0896f" alt="Griftlands">
       <div class="buttons">
@@ -16560,7 +16564,7 @@ Learn from each attempted run through the various stories of the <i>Griftlands</
         <a href="https://store.steampowered.com/app/601840" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="trepang2">
       <h3>Trepang2</h3>
       <img src="https://hb.imgix.net/87be095e0861ec4ac3ee799f69527052f912eddd.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d6b30f71009b31ba320788cc43b32f18" alt="Trepang2">
       <div class="buttons">
@@ -16625,7 +16629,7 @@ Follow, join the community and chat with the devs. Look in the external links to
         <a href="https://store.steampowered.com/app/1164940" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="fabledom">
       <h3>Fabledom</h3>
       <img src="https://hb.imgix.net/24e3e98db78fc988cf6133213d5f860167ed329a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=bf6edd49e4618015a026a2c035d43408" alt="Fabledom">
       <div class="buttons">
@@ -16726,7 +16730,7 @@ Build your economy, exchange rare resources to grow and evolve. <i>Fabledom</i> 
         <a href="https://store.steampowered.com/app/1651560" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tales & tactics">
       <h3>Tales & Tactics</h3>
       <img src="https://hb.imgix.net/38406ba92d8d535bfb46458ae6c1405fefe2b93a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c43ad72f5ddb44afed168d152f35e9ce" alt="Tales & Tactics">
       <div class="buttons">
@@ -16813,7 +16817,7 @@ Once you’ve proven yourself in the Grand Tournament, try scaling the Challenge
         <a href="https://store.steampowered.com/app/1652250" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="total war: pharaoh dynasties">
       <h3>Total War: PHARAOH DYNASTIES</h3>
       <img src="https://hb.imgix.net/c0c4cad3ed0345d8208f73663c50c53bf5ba062c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=91c68044dbca509d19951aaae3f283a9" alt="Total War: PHARAOH DYNASTIES">
       <div class="buttons">
@@ -16829,7 +16833,7 @@ Once you’ve proven yourself in the Grand Tournament, try scaling the Challenge
         <a href="https://store.steampowered.com/app/2951630" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="immortals of aveum">
       <h3>Immortals of Aveum</h3>
       <img src="https://hb.imgix.net/5dc0b4c0d8ed3d3ccfff3c33cb37e9ffbcce9fed.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f1375db26825c06ea6e975c202d44a38" alt="Immortals of Aveum">
       <div class="buttons">
@@ -16839,7 +16843,7 @@ Once you’ve proven yourself in the Grand Tournament, try scaling the Challenge
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="bonus: nested lands alpha playtest">
       <h3>BONUS: Nested Lands Alpha Playtest</h3>
       <img src="https://hb.imgix.net/852b6d0279ab2fd7df2589352745543907957d73.png?auto=compress,format&fit=clip&h=383&w=667&s=09d47733dd62f8abfc5c0a74bc276ddd" alt="BONUS: Nested Lands Alpha Playtest">
       <div class="buttons">
@@ -16862,7 +16866,7 @@ Once you’ve proven yourself in the Grand Tournament, try scaling the Challenge
 <section>
   <h2>march-2025</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="pacific drive">
       <h3>Pacific Drive</h3>
       <img src="https://hb.imgix.net/f5b21374cadcb0bf70fcaf7f80af315bb37a4667.png?auto=compress,format&fit=clip&h=383&w=667&s=3ff205d0b729811641277a67ab53fb64" alt="Pacific Drive">
       <div class="buttons">
@@ -16884,7 +16888,7 @@ Once you’ve proven yourself in the Grand Tournament, try scaling the Challenge
         <a href="https://store.steampowered.com/app/1458140" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="cavern of dreams">
       <h3>Cavern of Dreams</h3>
       <img src="https://hb.imgix.net/607e910ce2b20fd310951eea67b02725b957b041.jpg?auto=compress,format&fit=clip&h=383&w=667&s=7de79e7168c035bca1ad0c6b3f3dd18b" alt="Cavern of Dreams">
       <div class="buttons">
@@ -16951,7 +16955,7 @@ Fully immerse yourself in <i>Cavern of Dreams</i> through a nostalgic and myster
         <a href="https://store.steampowered.com/app/2059660" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="wild hearts">
       <h3>Wild Hearts</h3>
       <img src="https://hb.imgix.net/f10947dc94dd5aea05bb811cd2fca6ed8c010e22.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a316aaa3702d1d6b32d20b2baac010d7" alt="Wild Hearts">
       <div class="buttons">
@@ -16993,7 +16997,7 @@ Developed for this generation of platforms by Omega Force, the Japanese studio b
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tales of kenzera: zau">
       <h3>Tales of Kenzera: ZAU</h3>
       <img src="https://hb.imgix.net/fef211293afd2295f8c3b9b22e8ead8ec4b886fb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a0af5262e36ac0a996d9d923871bf28a" alt="Tales of Kenzera: ZAU">
       <div class="buttons">
@@ -17021,7 +17025,7 @@ Crafted by Surgent Studios, the entertainment studio founded by actor Abubakar S
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="gravity circuit">
       <h3>Gravity Circuit</h3>
       <img src="https://hb.imgix.net/683fbfc6354291be83d6b9f1a1973884546d2b8c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=ecbdcf1e87d22939677a1e5f26701863" alt="Gravity Circuit">
       <div class="buttons">
@@ -17083,7 +17087,7 @@ Reminiscent of classic platformers from the 80s and 90s, with action dialed to m
         <a href="https://store.steampowered.com/app/858710" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="homeworld 3">
       <h3>Homeworld 3</h3>
       <img src="https://hb.imgix.net/203fe504d6b8cb9133dc72a3047d2c24bda8941e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b2cbd2bf9a9921ff31a4deefd9e8243d" alt="Homeworld 3">
       <div class="buttons">
@@ -17164,7 +17168,7 @@ Mods allow players to craft their own content for <i>Homeworld 3</i> and share i
         <a href="https://store.steampowered.com/app/1840080" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="sir whoopass™: immortal death">
       <h3>Sir Whoopass™: Immortal Death</h3>
       <img src="https://hb.imgix.net/5733546436f015989ce4e72327b0566442bf4828.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b5648b686d7d99193f0ba018deb47d1b" alt="Sir Whoopass™: Immortal Death">
       <div class="buttons">
@@ -17240,7 +17244,7 @@ Along your way you'll stumble upon hidden (and not-so-hidden, some might even sa
         <a href="https://store.steampowered.com/app/1240590" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="racine">
       <h3>Racine</h3>
       <img src="https://hb.imgix.net/4e50a04f771916e0abdb5e55dfc84a348ec95c02.jpg?auto=compress,format&fit=clip&h=383&w=667&s=348771f730219c3b42fcb7d57297d3d4" alt="Racine">
       <div class="buttons">
@@ -17308,7 +17312,7 @@ Seek the answers to the mystery of the sudden burst of violence displayed by the
 <section>
   <h2>april-2025</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="aliens dark descent">
       <h3>Aliens Dark Descent</h3>
       <img src="https://hb.imgix.net/d37cb1dc8749dac5a886061492a939ca8afa9fb7.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d89a90724320c08678e6f2ce6d9c9f6" alt="Aliens Dark Descent">
       <div class="buttons">
@@ -17360,7 +17364,7 @@ of 5 starting Marines classes, with dozens of specializations, unique abilities 
         <a href="https://store.steampowered.com/app/1150440" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="diplomacy is not an option">
       <h3>Diplomacy is Not an Option</h3>
       <img src="https://hb.imgix.net/edc8958c445ae54fddb1218499f518b84a72f074.jpg?auto=compress,format&fit=clip&h=383&w=667&s=342e52e0e5cf93e12966c24d045365ee" alt="Diplomacy is Not an Option">
       <div class="buttons">
@@ -17380,7 +17384,7 @@ of 5 starting Marines classes, with dozens of specializations, unique abilities 
         <a href="https://store.steampowered.com/app/1272320" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dredge">
       <h3>Dredge</h3>
       <img src="https://hb.imgix.net/05fe37354b7d5a337aecf5a1f6db975406ebe6d8.jpg?auto=compress,format&fit=clip&h=383&w=667&s=4616c84e6864e268a46a6a27a91e0a1b" alt="Dredge">
       <div class="buttons">
@@ -17474,7 +17478,7 @@ Danger is everywhere, so watch for sharp rocks and shallow reefs, though the big
         <a href="https://store.steampowered.com/app/1562430" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="1000xresist">
       <h3>1000xRESIST</h3>
       <img src="https://hb.imgix.net/4b6cf2f5f7bba588833aaad4ffb4fa71047de9bb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=af497fc6c801a0d2e99de5d982f58146" alt="1000xRESIST">
       <div class="buttons">
@@ -17638,7 +17642,7 @@ Enjoy more than 10 hours of playtime brought to life with over 15,000 lines of f
         <a href="https://store.steampowered.com/app/1675830" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tomb raider 1-3 remastered">
       <h3>Tomb Raider 1-3 Remastered</h3>
       <img src="https://hb.imgix.net/afb4bee232f6415879700a4a616784f00feaf15c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c3d7b9a9223002a16148167ca7a6bf39" alt="Tomb Raider 1-3 Remastered">
       <div class="buttons">
@@ -17652,7 +17656,7 @@ Enjoy more than 10 hours of playtime brought to life with over 15,000 lines of f
         <a href="https://store.steampowered.com/app/2478970" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="nova lands">
       <h3>Nova Lands</h3>
       <img src="https://hb.imgix.net/1488343380c7d150c5d5cccd0d69d65d2f312443.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d6a0508f082d2ee4ae44e64aa9a29395" alt="Nova Lands">
       <div class="buttons">
@@ -17715,7 +17719,7 @@ Of course, there’s a blaster you can fire, and critters large enough to be a r
         <a href="https://store.steampowered.com/app/1501610" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="distant worlds 2">
       <h3>Distant Worlds 2</h3>
       <img src="https://hb.imgix.net/171cec346da05c0dd621171166ac8ffe99c69eef.jpg?auto=compress,format&fit=clip&h=383&w=667&s=f317d1265ec2af66c327114b1aa26e2e" alt="Distant Worlds 2">
       <div class="buttons">
@@ -17777,7 +17781,7 @@ Best of all, these all combine to let you play the game your way: enjoy a quick,
         <a href="https://store.steampowered.com/app/1531540" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="nomad survival">
       <h3>Nomad Survival</h3>
       <img src="https://hb.imgix.net/2071242ab23a847a13e4e2cf8962147019c7bffb.jpg?auto=compress,format&fit=clip&h=383&w=667&s=d63a812b3654fd33cfef13011504f9b1" alt="Nomad Survival">
       <div class="buttons">
@@ -17896,7 +17900,7 @@ Feel like the game is too slow? Increase the Game Speed at the Level Selection s
 <section>
   <h2>may-2025</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="amnesia: the bunker">
       <h3>Amnesia: The Bunker</h3>
       <img src="https://hb.imgix.net/b10b3904af67e07520344f23f0492c8c4cab3f76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e8d4348cebb9eef2e44c2f5849d94c73" alt="Amnesia: The Bunker">
       <div class="buttons">
@@ -17964,7 +17968,7 @@ Solve things your own way in a semi-open world. You must explore and experiment 
         <a href="https://store.steampowered.com/app/1944430" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="the thaumaturge - deluxe edition">
       <h3>The Thaumaturge - Deluxe Edition</h3>
       <img src="https://hb.imgix.net/6c358d81ccf99af66f493a0dfd4a52a9875ef28f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b83210ddf421638ca6bc724c3bdd3c23" alt="The Thaumaturge - Deluxe Edition">
       <div class="buttons">
@@ -17987,7 +17991,7 @@ Solve things your own way in a semi-open world. You must explore and experiment 
         <a href="https://store.steampowered.com/app/1684350" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="ultros">
       <h3>Ultros</h3>
       <img src="https://hb.imgix.net/07ee0502794beb29c41a6f94a46164cbc5a06a61.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0266aa92582536830f0254f86548832c" alt="Ultros">
       <div class="buttons">
@@ -18032,7 +18036,7 @@ The rich world of <i>ULTROS</i> holds many secrets for those curious enough — 
         <a href="https://store.steampowered.com/app/2386310" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="evil west">
       <h3>Evil West</h3>
       <img src="https://hb.imgix.net/a039a14d6fc76ca8ebe02bacc486652eb3a66978.jpg?auto=compress,format&fit=clip&h=383&w=667&s=0f0a6129c0e320ae73061ff2ad0447f4" alt="Evil West">
       <div class="buttons">
@@ -18046,7 +18050,7 @@ The rich world of <i>ULTROS</i> holds many secrets for those curious enough — 
         <a href="https://store.steampowered.com/app/1065310" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="get one month of ign plus">
       <h3>Get One Month of IGN Plus</h3>
       <img src="https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5" alt="Get One Month of IGN Plus">
       <div class="buttons">
@@ -18054,7 +18058,7 @@ The rich world of <i>ULTROS</i> holds many secrets for those curious enough — 
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="corpse keeper">
       <h3>Corpse Keeper</h3>
       <img src="https://hb.imgix.net/eae84543a099145c3913f5f990a548d813a29d41.jpg?auto=compress,format&fit=clip&h=383&w=667&s=86ba0f4baf9725a7bf82cec20d8129fe" alt="Corpse Keeper">
       <div class="buttons">
@@ -18126,7 +18130,7 @@ Seven distinctive areas can be explored, offering a solemn and dark medieval fan
         <a href="https://store.steampowered.com/app/1601740" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="eiyuden chronicle: hundred heroes">
       <h3>Eiyuden Chronicle: Hundred Heroes</h3>
       <img src="https://hb.imgix.net/fa9bea4e14757c7f2d3801d43236b888597b4afc.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e194de83a609ed5c0aa1d200c11cfb39" alt="Eiyuden Chronicle: Hundred Heroes">
       <div class="buttons">
@@ -18142,7 +18146,7 @@ Seven distinctive areas can be explored, offering a solemn and dark medieval fan
         <a href="https://store.steampowered.com/app/1658280" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="shadow gambit: the cursed crew">
       <h3>Shadow Gambit: The Cursed Crew</h3>
       <img src="https://hb.imgix.net/d8bac50de07a496dd4018a574abded998cdad21b.jpg?auto=compress,format&fit=clip&h=383&w=667&s=c5b71f8ca1a2a652759ac37c14bcfb83" alt="Shadow Gambit: The Cursed Crew">
       <div class="buttons">
@@ -18189,7 +18193,7 @@ Seven distinctive areas can be explored, offering a solemn and dark medieval fan
         <a href="https://store.steampowered.com/app/1545560" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="star wars: bounty hunter">
       <h3>STAR WARS: Bounty Hunter</h3>
       <img src="https://hb.imgix.net/342d77e45c352a24b9a1b8e80291221427ee1779.jpg?auto=compress,format&fit=clip&h=383&w=667&s=99e44b44045a576e34d764327589e0ef" alt="STAR WARS: Bounty Hunter">
       <div class="buttons">
@@ -18228,7 +18232,7 @@ Fight your way through the galaxy’s underbelly, equipped with Dual Blasters, y
 <section>
   <h2>june-2025</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card" data-title="nobody wants to die">
       <h3>Nobody Wants to Die</h3>
       <img src="https://hb.imgix.net/ff11afd85a715019db27d66d0ac4f9a93ee35a0f.jpg?auto=compress,format&fit=clip&h=383&w=667&s=04572accf88946e094e516d25f4c26f1" alt="Nobody Wants to Die">
       <div class="buttons">
@@ -18290,7 +18294,7 @@ Utilising the power of Unreal Engine 5, <i>Nobody Wants to Die</i> pushes the bo
         <a href="https://store.steampowered.com/app/1939970" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="dungeons of hinterberg">
       <h3>Dungeons of Hinterberg</h3>
       <img src="https://hb.imgix.net/cb2b6f283213eb501776d5d671f46268b961d31a.jpg?auto=compress,format&fit=clip&h=383&w=667&s=27ce4905a341bac30014f01486a39d2e" alt="Dungeons of Hinterberg">
       <div class="buttons">
@@ -18420,7 +18424,7 @@ Utilising the power of Unreal Engine 5, <i>Nobody Wants to Die</i> pushes the bo
         <a href="https://store.steampowered.com/app/1983260" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="havendock">
       <h3>Havendock</h3>
       <img src="https://hb.imgix.net/28d3de78494c4fb19a929f003147ebdb124e9d76.jpg?auto=compress,format&fit=clip&h=383&w=667&s=55b55c13119d741c32c015c59bbfdab0" alt="Havendock">
       <div class="buttons">
@@ -18448,7 +18452,7 @@ Utilising the power of Unreal Engine 5, <i>Nobody Wants to Die</i> pushes the bo
         <a href="https://store.steampowered.com/app/2020710" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="tchia">
       <h3>Tchia</h3>
       <img src="https://hb.imgix.net/8e9299eed846ec20fce88671b1084b8b54314cf0.jpg?auto=compress,format&fit=clip&h=383&w=667&s=a1191a8a1113bad68d58c6e0ebf2e2dd" alt="Tchia">
       <div class="buttons">
@@ -18543,7 +18547,7 @@ The world of <i>Tchia</i> was inspired by New Caledonia, A tiny island in the Pa
         <a href="https://store.steampowered.com/app/1496590" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="legacy of kain soul reaver 1&2 remastered">
       <h3>Legacy of Kain Soul Reaver 1&2 Remastered</h3>
       <img src="https://hb.imgix.net/393b2c071cfa37dfb2cec0eae5f83a8e1bd58bce.jpg?auto=compress,format&fit=clip&h=383&w=667&s=822b0148a2b4d0caa2da05d9b06897fe" alt="Legacy of Kain Soul Reaver 1&2 Remastered">
       <div class="buttons">
@@ -18586,7 +18590,7 @@ The Elder God has granted you the ability to shift between the Spectral and Mate
         <a href="https://store.steampowered.com/app/2521380" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="get one month of ign plus">
       <h3>Get One Month of IGN Plus</h3>
       <img src="https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5" alt="Get One Month of IGN Plus">
       <div class="buttons">
@@ -18594,7 +18598,7 @@ The Elder God has granted you the ability to shift between the Spectral and Mate
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="warhammer 40,000: boltgun">
       <h3>Warhammer 40,000: Boltgun</h3>
       <img src="https://hb.imgix.net/a1dc8b4eac625e4162f3b7263ac215af723602d9.jpg?auto=compress,format&fit=clip&h=383&w=667&s=deaf4144969f910874b844ee3bba386d" alt="Warhammer 40,000: Boltgun">
       <div class="buttons">
@@ -18652,7 +18656,7 @@ Want to take purging to the next level? Annihilate endless swarms of enemies in 
         <a href="https://store.steampowered.com/app/2005010" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="boot.dev 1 month subscription">
       <h3>Boot.dev 1 Month Subscription</h3>
       <img src="https://hb.imgix.net/2be6eeb205d8b93f051869b4fa0bda0bff5d1015.png?auto=compress,format&fit=clip&h=383&w=667&s=1fdb02136441c4ea3933d2a016d6ef5e" alt="Boot.dev 1 Month Subscription">
       <div class="buttons">
@@ -18660,7 +18664,7 @@ Want to take purging to the next level? Annihilate endless swarms of enemies in 
         <a href="" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="biped">
       <h3>Biped</h3>
       <img src="https://hb.imgix.net/f142ec077f2f3153a88f6960267823272b9d95fe.jpg?auto=compress,format&fit=clip&h=383&w=667&s=1ee772b23451153ab107d1a0551496d7" alt="Biped">
       <div class="buttons">
@@ -18733,7 +18737,7 @@ You have passed all the levels already and want more? Create your own levels usi
         <a href="https://store.steampowered.com/app/1071870" target="_blank">Steam Page</a>
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-title="sker ritual">
       <h3>Sker Ritual</h3>
       <img src="https://hb.imgix.net/9602ea4078f53d08b235106de5634d756f23636c.jpg?auto=compress,format&fit=clip&h=383&w=667&s=02f816b2d2cf98a4db383811bd64dba0" alt="Sker Ritual">
       <div class="buttons">
@@ -18869,6 +18873,17 @@ function hideDescription() {
 window.onclick = function(event) {
   const modal = document.getElementById("descModal");
   if (event.target == modal) modal.style.display = "none";
+}
+</script>
+<script>
+function filterGames() {
+   const input = document.getElementById("searchInput").value.toLowerCase();
+   const cards = document.querySelectorAll(".card");
+
+   cards.forEach(card => {
+       const title = card.getAttribute("data-title");
+       card.style.display = title.includes(input) ? "block" : "none";
+   });
 }
 </script>
 </body>
